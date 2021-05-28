@@ -5,7 +5,7 @@ using UnityEngine;
 public class Hero : MonoBehaviour
 {
     [SerializeField] private float speed = 3f;
-    [SerializeField] private float jumpForce = 3f;
+    [SerializeField] private float jumpForce = 5.5f;
     private bool isGrounded = false;
 
     private Rigidbody2D rb;
@@ -63,11 +63,14 @@ public class Hero : MonoBehaviour
     private void CheckGround() {
         Collider2D[] collider = Physics2D.OverlapCircleAll(transform.position, 0.3f);
         isGrounded = collider.Length > 1;
+
+        if (!isGrounded) State = States.jump;
     }
 }
 
 public enum States
 {
     idle,
-    run
+    run,
+    jump
 }
