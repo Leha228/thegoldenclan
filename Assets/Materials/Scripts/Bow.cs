@@ -13,23 +13,23 @@ public class Bow : MonoBehaviour
     GameObject[] points;
     public int numberOfPoints;
     public float spaceBetweenPoint;
+    private bool createPoints = false;
 
     // Start is called before the first frame update
     void Start()
     {
         points = new GameObject[numberOfPoints];
-        for (int i = 0; i < numberOfPoints; i++)
-        {
-            points[i] = Instantiate(point, shootPoint.position, Quaternion.identity);
-        }
+        createPoints = true;
     }
 
     // Update is called once per frame
+    [Obsolete]
     void Update()
     {
         move();
     }
 
+    [Obsolete]
     private void move()
     {
         Vector2 bowPosition = transform.position;
@@ -42,9 +42,32 @@ public class Bow : MonoBehaviour
             shoot();
         }
 
-        for (int i = 0; i < numberOfPoints; i++)
+        if (Input.GetButton("Fire2"))
         {
-            points[i].transform.position = pointPosition(i * spaceBetweenPoint);
+            if (createPoints)
+            {
+                for (int i = 0; i < numberOfPoints; i++)
+                {
+                    points[i] = Instantiate(point, shootPoint.position, Quaternion.identity);
+                }
+                createPoints = false;
+            }
+
+            for (int i = 0; i < numberOfPoints; i++)
+            {
+                points[i].active = true;
+                points[i].transform.position = pointPosition(i * spaceBetweenPoint);
+            }
+        } 
+        else
+        {
+            if (!createPoints)
+            {
+                for (int i = 0; i < numberOfPoints; i++)
+                {
+                    points[i].active = false;
+                }
+            }
         }
     }
 
