@@ -6,12 +6,12 @@ using UnityEngine;
 public class Bow : MonoBehaviour
 {
     public GameObject arrow;
-    public float launchForce = 13;
+    public float launchForce = 5;
     public Transform shootPoint;
 
     public GameObject point;
     GameObject[] points;
-    public int numberOfPoints;
+    public int numberOfPoints = 5;
     public float spaceBetweenPoint;
     private bool createPoints = false;
 
@@ -44,6 +44,8 @@ public class Bow : MonoBehaviour
 
         if (Input.GetButton("Fire2"))
         {
+            if (Math.Round(Vector2.Distance(bowPosition, mousePosition)) >= 5 && Math.Round(Vector2.Distance(bowPosition, mousePosition)) <= 12) { launchForce = Vector2.Distance(bowPosition, mousePosition); }
+            
             if (createPoints)
             {
                 for (int i = 0; i < numberOfPoints; i++)

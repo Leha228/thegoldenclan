@@ -380,10 +380,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrow: {fileID: 2334856505998579900, guid: 6176de9d17569474b8cb9a976e4aaf84, type: 3}
-  launchForce: 13
+  launchForce: 5
   shootPoint: {fileID: 303499369}
   point: {fileID: 3986781987090069444, guid: 86555a17ff917724bb8d5faf11efc190, type: 3}
-  numberOfPoints: 10
+  numberOfPoints: 11
   spaceBetweenPoint: 0.05
 --- !u!1 &519420028
 GameObject:
