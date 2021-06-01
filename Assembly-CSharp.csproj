@@ -57,10 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Materials\Scripts\Hero.cs" />
-    <Compile Include="Assets\Materials\Scripts\Bow.cs" />
     <Compile Include="Assets\Materials\Scripts\Arrow.cs" />
+    <Compile Include="Assets\Materials\Scripts\Bow.cs" />
+    <Compile Include="Assets\Materials\Scripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Materials\Animate\robin_hood.atlas.txt" />
+     <None Include="Assets\Spine\version.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -717,6 +720,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="spine-unity-examples-editor.csproj">
+      <Project>{CE406E31-1141-3070-5F5D-9C4A4083FAD2}</Project>
+      <Name>spine-unity-examples-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity.csproj">
+      <Project>{86E0EF12-C248-92CE-F93F-BEA4E84CA2D7}</Project>
+      <Name>spine-unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-examples.csproj">
+      <Project>{4EBB4A3C-0160-4C4A-D819-2CF2154F4E29}</Project>
+      <Name>spine-unity-examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-editor.csproj">
+      <Project>{BAB39386-E0F0-1485-D195-F45D5FC973C2}</Project>
+      <Name>spine-unity-editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
