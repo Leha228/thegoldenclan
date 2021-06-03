@@ -9,7 +9,8 @@ public class PlayerController : MonoBehaviour
 {
 
     public SkeletonAnimation skeletonAnimation;
-    public AnimationReferenceAsset idle, walk, jumping;
+    public SkeletonData skeletonData;
+    public AnimationReferenceAsset idle, walk, jumping, attacking;
     private string currentState;
     private string prevState;
     private string currentAnimation;
@@ -19,14 +20,15 @@ public class PlayerController : MonoBehaviour
     private float move;
 
     private Rigidbody2D rb;
+    Bone bone;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         currentState = "idle";
+
         setCharacterState(currentState);
     }
-
 
     void Update()
     {
@@ -35,12 +37,15 @@ public class PlayerController : MonoBehaviour
 
     private void run()
     {
+        if (Input.GetButton("Fire1"))
+            attack();
+
         move = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(move * speed, rb.velocity.y);
-        Debug.Log(transform.localScale.x);
+
         if (move != 0)
         {
-            if (!currentState.Equals("jump")) { setCharacterState("walk"); }
+            if (!currentState.Equals("jump") && !currentState.Equals("attack")) { setCharacterState("walk"); }
             if (move > 0)
                 transform.localScale = new Vector2(0.6f, 0.6f);
             else
@@ -48,11 +53,12 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            if (!currentState.Equals("jump")) { setCharacterState("idle"); }
+            if (!currentState.Equals("jump") && !currentState.Equals("attack")) { setCharacterState("idle"); }
         }
 
         if (Input.GetButtonDown("Jump"))
             jump();
+
     }
 
     private void jump()
@@ -62,9 +68,16 @@ public class PlayerController : MonoBehaviour
         setCharacterState("jump");
     }
 
+    private void attack()
+    {
+        if (!currentState.Equals("attack")) { prevState = currentState; }
+        setCharacterState("attack");
+    }
+
     public void setAnimation(AnimationReferenceAsset animation, bool loop, float timeScale)
     {
         if (animation.name.Equals(currentAnimation)) { return; }
+
         TrackEntry animationEntry = skeletonAnimation.state.SetAnimation(0, animation, loop);
         animationEntry.TimeScale = timeScale;
         animationEntry.Complete += AnimationEntry_Complete;
@@ -74,6 +87,7 @@ public class PlayerController : MonoBehaviour
     private void AnimationEntry_Complete(Spine.TrackEntry trackEntry)
     {
         if (currentState.Equals("jump")) { setCharacterState(prevState); }
+        if (currentState.Equals("attack")) { setCharacterState(prevState); }
     }
 
     public void setCharacterState(string state)
@@ -82,6 +96,8 @@ public class PlayerController : MonoBehaviour
             setAnimation(walk, true, 1.6f);
         else if (state.Equals("jump"))
             setAnimation(jumping, false, 1f);
+        else if (state.Equals("attack"))
+            setAnimation(attacking, false, 1f);
         else
             setAnimation(idle, true, 1f);
 
