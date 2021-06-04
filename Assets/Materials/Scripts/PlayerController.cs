@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     public SkeletonAnimation skeletonAnimation;
     public SkeletonData skeletonData;
-    public AnimationReferenceAsset idle, walk, jumping, attacking;
+    public AnimationReferenceAsset idle, walk, jumping, attacking, aiming;
     private string currentState;
     private string prevState;
     private string currentAnimation;
@@ -37,15 +37,15 @@ public class PlayerController : MonoBehaviour
 
     private void run()
     {
-        if (Input.GetButton("Fire1"))
-            attack();
+        if (Input.GetButton("Fire2")) aim();
+        if (Input.GetButtonDown("Fire1")) attack();
 
         move = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(move * speed, rb.velocity.y);
 
         if (move != 0)
         {
-            if (!currentState.Equals("jump") && !currentState.Equals("attack")) { setCharacterState("walk"); }
+            if (!currentState.Equals("jump") && !currentState.Equals("attack") && !currentState.Equals("aim")) { setCharacterState("walk"); }
             if (move > 0)
                 transform.localScale = new Vector2(0.6f, 0.6f);
             else
@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            if (!currentState.Equals("jump") && !currentState.Equals("attack")) { setCharacterState("idle"); }
+            if (!currentState.Equals("jump") && !currentState.Equals("attack") && !currentState.Equals("aim")) { setCharacterState("idle"); }
         }
 
         if (Input.GetButtonDown("Jump"))
@@ -74,6 +74,12 @@ public class PlayerController : MonoBehaviour
         setCharacterState("attack");
     }
 
+    private void aim()
+    {
+        if (!currentState.Equals("aim")) { prevState = currentState; }
+        setCharacterState("aim");
+    }
+
     public void setAnimation(AnimationReferenceAsset animation, bool loop, float timeScale)
     {
         if (animation.name.Equals(currentAnimation)) { return; }
@@ -88,6 +94,7 @@ public class PlayerController : MonoBehaviour
     {
         if (currentState.Equals("jump")) { setCharacterState(prevState); }
         if (currentState.Equals("attack")) { setCharacterState(prevState); }
+        //if (currentState.Equals("aim")) { setCharacterState(prevState); }
     }
 
     public void setCharacterState(string state)
@@ -96,6 +103,8 @@ public class PlayerController : MonoBehaviour
             setAnimation(walk, true, 1.6f);
         else if (state.Equals("jump"))
             setAnimation(jumping, false, 1f);
+        else if (state.Equals("aim"))
+            setAnimation(aiming, false, 1f);
         else if (state.Equals("attack"))
             setAnimation(attacking, false, 1f);
         else

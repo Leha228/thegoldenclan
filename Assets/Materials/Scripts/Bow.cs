@@ -39,7 +39,8 @@ public class Bow : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            shoot();
+            Invoke(nameof(shoot), 0.5f);
+            //shoot();
         }
 
         if (Input.GetButton("Fire2"))
