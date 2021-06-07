@@ -15,11 +15,11 @@ C:/Users/User/Documents/The Golden Clan
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58847
+52513
 Successfully changed project path to: C:/Users/User/Documents/The Golden Clan
 C:/Users/User/Documents/The Golden Clan
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 65.91 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 78.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1236 +35,224 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003493 seconds.
+Registered in 0.003936 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 68.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 70.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.835 seconds
+- Completed reload, in  2.089 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001490 seconds.
+Registered in 0.001709 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.16 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 90.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.599 seconds
+- Completed reload, in  1.949 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2065 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.6 MB.
 System memory in use after: 99.3 MB.
 
 Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2496.
-Total: 4.462200 ms (FindLiveObjects: 0.389900 ms CreateObjectMapping: 0.100400 ms MarkObjects: 2.245600 ms  DeleteObjects: 1.724900 ms)
+Total: 4.477100 ms (FindLiveObjects: 0.391200 ms CreateObjectMapping: 0.097700 ms MarkObjects: 2.236500 ms  DeleteObjects: 1.749800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_05.png
-  artifactKey: Guid(ffca42f121ba38740bf78d007364678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_05.png using Guid(ffca42f121ba38740bf78d007364678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8852369326cf8dfefd98b44cc3d20d99') in 0.187955 seconds
-  Import took 0.192230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_41.png
-  artifactKey: Guid(1c91d89f976117345b83d4d4897137e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_41.png using Guid(1c91d89f976117345b83d4d4897137e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3754bd3e329aac52b43462e0ffb3b039') in 0.021590 seconds
-  Import took 0.027158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-2_09.png
-  artifactKey: Guid(7704e60e8251fc24f9f2b674ac856e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-2_09.png using Guid(7704e60e8251fc24f9f2b674ac856e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e57bc6a1ebe8b45eab2a1eb6b5eac8f') in 0.023418 seconds
-  Import took 0.028676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_56.png
-  artifactKey: Guid(a4c084ebccf13fc499a124a85e0ee84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_56.png using Guid(a4c084ebccf13fc499a124a85e0ee84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64db30f3c14ef085d5a349d9873f7b19') in 0.021073 seconds
-  Import took 0.025472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_63.png
-  artifactKey: Guid(34f0424764ba7ba47a1ac312232062f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_63.png using Guid(34f0424764ba7ba47a1ac312232062f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443469e0cbaa1f07af8c70af6dda5407') in 0.022478 seconds
-  Import took 0.027409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_30.png
-  artifactKey: Guid(30e4a716d759bc14fb8aee4f2e673a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_30.png using Guid(30e4a716d759bc14fb8aee4f2e673a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f1269da2f9f96067f285a3c7606d57') in 0.023449 seconds
-  Import took 0.028205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_09.png
-  artifactKey: Guid(46ff480aa9df49d478fdc67943ef7062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_09.png using Guid(46ff480aa9df49d478fdc67943ef7062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3228c9906a3fad5b62245673ca0aa966') in 0.025884 seconds
-  Import took 0.030524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_37.png
-  artifactKey: Guid(781289a3e8206cb40afaa2881678c83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_37.png using Guid(781289a3e8206cb40afaa2881678c83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80cc5acf2af800e55dfc93a45d08374') in 0.022411 seconds
-  Import took 0.027377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_07.png
-  artifactKey: Guid(7e560789f41ab4149b814126d9a0d42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_07.png using Guid(7e560789f41ab4149b814126d9a0d42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688cffe01a899d3673f6ac897d1ca718') in 0.025758 seconds
-  Import took 0.030825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_21.png
-  artifactKey: Guid(a84e49ebbbe41884c84d367e51e43006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_21.png using Guid(a84e49ebbbe41884c84d367e51e43006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18138c5c2d11a5873bd36b8a8c6a3323') in 0.023504 seconds
-  Import took 0.028232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_22.png
-  artifactKey: Guid(2dfed6fe23dc63346a97d315be88cd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_22.png using Guid(2dfed6fe23dc63346a97d315be88cd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644ba6dca63ddb70fe662915e0f42a41') in 0.020665 seconds
-  Import took 0.025975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_04.png
-  artifactKey: Guid(399eb2ce250c52b47925947239e44300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_04.png using Guid(399eb2ce250c52b47925947239e44300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4172e5464ada0846b62e94e9d2439041') in 0.023720 seconds
-  Import took 0.028299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_33.png
-  artifactKey: Guid(e5560943354eccd418baaf12c4c589a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_33.png using Guid(e5560943354eccd418baaf12c4c589a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aae5443ba9f6c987c229d6793302f7b') in 0.022049 seconds
-  Import took 0.026703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_14.png
-  artifactKey: Guid(763e55112438a7e44a663f391063b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_14.png using Guid(763e55112438a7e44a663f391063b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12c2ce6c0d398433b9486473eb63763') in 0.022232 seconds
-  Import took 0.026872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_11.png
-  artifactKey: Guid(316fca880a164cb47bd7096b87615832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_11.png using Guid(316fca880a164cb47bd7096b87615832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581eccbc28439a65c1ba64bd9a661b8b') in 0.021998 seconds
-  Import took 0.027204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-1_2.png
-  artifactKey: Guid(dc9f182b9abb3154c83fc492d611ff80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-1_2.png using Guid(dc9f182b9abb3154c83fc492d611ff80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1641137b61ffadc28c189cf8d256b6') in 0.021698 seconds
-  Import took 0.026388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_42.png
-  artifactKey: Guid(2f8843c81a5badf47a58feecdc1b16e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_42.png using Guid(2f8843c81a5badf47a58feecdc1b16e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbd8c32c0e04860135bdca5cf491253') in 0.020111 seconds
-  Import took 0.024325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_34.png
-  artifactKey: Guid(525f499f3f4f98f48b3b4cdd54024b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_34.png using Guid(525f499f3f4f98f48b3b4cdd54024b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5152aa8fdce57f13352956ec2c45fd3') in 0.019888 seconds
-  Import took 0.024152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_12.png
-  artifactKey: Guid(2301b72c01d00b844af5ef8f175896d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_12.png using Guid(2301b72c01d00b844af5ef8f175896d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e71f508cecabb4d9053230be5b1da8') in 0.020091 seconds
-  Import took 0.025037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_07.png
-  artifactKey: Guid(1dbb5d46cd1aba84a89c3244352b32e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_07.png using Guid(1dbb5d46cd1aba84a89c3244352b32e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a143941f82c660921ddac677326b0014') in 0.021361 seconds
-  Import took 0.025810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_25.png
-  artifactKey: Guid(915b02854765c4441883fd08c1d66aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_25.png using Guid(915b02854765c4441883fd08c1d66aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3975ce3eff1206e3810f99b4476922') in 0.019892 seconds
-  Import took 0.024150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_20.png
-  artifactKey: Guid(93f72f1f8c6f86940be98295aa3e2eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_20.png using Guid(93f72f1f8c6f86940be98295aa3e2eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd022e37c8349a2514177ccb73a75e303') in 0.020723 seconds
-  Import took 0.025154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_23.png
-  artifactKey: Guid(1ef8b299af25885419ca07c2eddde7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_23.png using Guid(1ef8b299af25885419ca07c2eddde7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdea8c4bc5edeb624f7f38b2abfdc97f') in 0.018885 seconds
-  Import took 0.023627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-2_06.png
-  artifactKey: Guid(8d5f852de6e853b43835e50242fb72ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-2_06.png using Guid(8d5f852de6e853b43835e50242fb72ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44daaa7f1754d9af7fe90673ed53146e') in 0.019846 seconds
-  Import took 0.023840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_44.png
-  artifactKey: Guid(70ed096be4f47da4a9c099178ba1765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_44.png using Guid(70ed096be4f47da4a9c099178ba1765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9525b35c9341cad5d3f3a9afd7ba1394') in 0.019867 seconds
-  Import took 0.024360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-2_04.png
-  artifactKey: Guid(7854cc9586f132248bbb38e52564809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-2_04.png using Guid(7854cc9586f132248bbb38e52564809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30854120d7a3995021c21eda67183bba') in 0.020949 seconds
-  Import took 0.025364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_23.png
-  artifactKey: Guid(9fb5d1b8cda5b354a94ed1a1a9aafde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_23.png using Guid(9fb5d1b8cda5b354a94ed1a1a9aafde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fccdea78644f923f2feacf7e95e104') in 0.020246 seconds
-  Import took 0.024513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_03.png
-  artifactKey: Guid(a1c4447c7486a8743aa5118c3ab720b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_03.png using Guid(a1c4447c7486a8743aa5118c3ab720b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098b94e3994fada68d05104bf178a6a3') in 0.030016 seconds
-  Import took 0.034665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-2_10.png
-  artifactKey: Guid(9f4ec2b3a288273468360bb92761a6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-2_10.png using Guid(9f4ec2b3a288273468360bb92761a6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705e1b4708719f12a5cad1eb5c1ee4ed') in 0.022833 seconds
-  Import took 0.027915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_10.png
-  artifactKey: Guid(5e21734fbdfb6184a8be6e929eb32aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_10.png using Guid(5e21734fbdfb6184a8be6e929eb32aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611cbd8c26b7de06dc9d16e97da49c99') in 0.020377 seconds
-  Import took 0.024960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_14.png
-  artifactKey: Guid(dd507b9972d062844877b17fc71d9af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_14.png using Guid(dd507b9972d062844877b17fc71d9af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcfef2ebae7f28a591983f691037e9b') in 0.021969 seconds
-  Import took 0.026196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_53.png
-  artifactKey: Guid(c89d3e11fad7b864d8451443933114e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_53.png using Guid(c89d3e11fad7b864d8451443933114e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3dd8e59ae6ac694ce24ec4e289a49b7') in 0.021551 seconds
-  Import took 0.025656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_40.png
-  artifactKey: Guid(88dcf3d5597236c449ba59e428f770f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_40.png using Guid(88dcf3d5597236c449ba59e428f770f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db1d85a79418b497d86cf29386f4bd3') in 0.019096 seconds
-  Import took 0.023740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-0_6.png
-  artifactKey: Guid(0285274f43eaca748abafd1d2400e25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-0_6.png using Guid(0285274f43eaca748abafd1d2400e25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447833f89fb7678887a5acbb9aceb0d6') in 0.021267 seconds
-  Import took 0.025597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_58.png
-  artifactKey: Guid(53ea92a7917feb44797b20e213e1d07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_58.png using Guid(53ea92a7917feb44797b20e213e1d07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a575a8bfda744f8963da61af19ed81') in 0.020268 seconds
-  Import took 0.024197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-2_05.png
-  artifactKey: Guid(81ce055996d06c0488299323ed89e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-2_05.png using Guid(81ce055996d06c0488299323ed89e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f0dd2c76db412aafe7724dfea7fe10') in 0.020882 seconds
-  Import took 0.024915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_19.png
-  artifactKey: Guid(5950ac9c08ce40341ab1a49ecfa14769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_19.png using Guid(5950ac9c08ce40341ab1a49ecfa14769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cba98978e49a5ea548befac8825169') in 0.022737 seconds
-  Import took 0.027229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_64.png
-  artifactKey: Guid(11d6d9812da41674d8c2aef63e41e30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_64.png using Guid(11d6d9812da41674d8c2aef63e41e30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e0d73b03d9bba702dad00bc4b5b63a') in 0.019192 seconds
-  Import took 0.023513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-1_1.png
-  artifactKey: Guid(8556610ba81d2f846ab013aa1bc488bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-1_1.png using Guid(8556610ba81d2f846ab013aa1bc488bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9125697720498b96e7ac1d1e226c71') in 0.017631 seconds
-  Import took 0.021867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_61.png
-  artifactKey: Guid(a7dd6de66c221c04baeb17d70f118e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_61.png using Guid(a7dd6de66c221c04baeb17d70f118e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfb59e8b4b441dd8968a70e7926f6da') in 0.019326 seconds
-  Import took 0.023992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_13.png
-  artifactKey: Guid(228c9b89cc0ef5d49b451313a6ee2341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_13.png using Guid(228c9b89cc0ef5d49b451313a6ee2341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f05eb6e896d1f889d39b2a6d71464e9') in 0.020229 seconds
-  Import took 0.024723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_60.png
-  artifactKey: Guid(4169a760f79600c479e8fa0b47600a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_60.png using Guid(4169a760f79600c479e8fa0b47600a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44139557d9fb4fc556de3bafd5e00356') in 0.018901 seconds
-  Import took 0.023070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_10.png
-  artifactKey: Guid(7297caab26bbecc43aa6d2633ca43e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_10.png using Guid(7297caab26bbecc43aa6d2633ca43e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd107ca329a410e6c83a8a01cfc153e') in 0.019558 seconds
-  Import took 0.023824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_20.png
-  artifactKey: Guid(a569eea62313cae4e8016f6832a70956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_20.png using Guid(a569eea62313cae4e8016f6832a70956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf23b761fbc59cff769a0404d93f803') in 0.019312 seconds
-  Import took 0.024024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_39.png
-  artifactKey: Guid(df4de104d23cdec418b3458d6f9d73cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_39.png using Guid(df4de104d23cdec418b3458d6f9d73cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45e16c795f9ac5ce10078309e9e325f') in 0.020944 seconds
-  Import took 0.025132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_47.png
-  artifactKey: Guid(6acbb72ddc3287b4b849abc3e5445700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_47.png using Guid(6acbb72ddc3287b4b849abc3e5445700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1fba61f44f20a915dfae4695db7e04') in 0.019686 seconds
-  Import took 0.025167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_28.png
-  artifactKey: Guid(c7fae61349e148746814bf8470fbac38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_28.png using Guid(c7fae61349e148746814bf8470fbac38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3225dcbdce43ecbe93ca4eafda6829f') in 0.018806 seconds
-  Import took 0.023271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_51.png
-  artifactKey: Guid(401363dc99a2b9849a801533b4c0340e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_51.png using Guid(401363dc99a2b9849a801533b4c0340e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a626199ff13b82cc3406efee93a3f319') in 0.019104 seconds
-  Import took 0.023461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-2_02.png
-  artifactKey: Guid(8df115845e49eb8448525a243f55e721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-2_02.png using Guid(8df115845e49eb8448525a243f55e721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c0f19457e05025a590591d6231abf8') in 0.021797 seconds
-  Import took 0.026165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_26.png
-  artifactKey: Guid(c4cea8a80a53b3344b02698a982cfb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_26.png using Guid(c4cea8a80a53b3344b02698a982cfb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124bb56c65a38575b924b2c92693235f') in 0.022283 seconds
-  Import took 0.026588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_11.png
-  artifactKey: Guid(1d9a6df04acdf614f92bc01dfe3063b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_11.png using Guid(1d9a6df04acdf614f92bc01dfe3063b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0788bce5dbbab78be0879268ffa65c50') in 0.023479 seconds
-  Import took 0.027799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-0_4.png
-  artifactKey: Guid(8f70fc51b7e7d4446b7d11ff0443ef98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-0_4.png using Guid(8f70fc51b7e7d4446b7d11ff0443ef98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd2c81259df03a09e8bf4008f13383e') in 0.020200 seconds
-  Import took 0.024317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_30.png
-  artifactKey: Guid(da13701a5460e6144a38da8f19993671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_30.png using Guid(da13701a5460e6144a38da8f19993671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af537a1fee9709849b39628323b84dd') in 0.022392 seconds
-  Import took 0.027308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-0_3.png
-  artifactKey: Guid(e2261d825c1ec2a4daabe11fa6378ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-0_3.png using Guid(e2261d825c1ec2a4daabe11fa6378ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e060b4cc387595aac4c3550ef53a8f') in 0.020854 seconds
-  Import took 0.025578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_52.png
-  artifactKey: Guid(1592f5c93fcdce24da72176ebd4d5c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_52.png using Guid(1592f5c93fcdce24da72176ebd4d5c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d1454b0143b5d18f11a77c2d95bc4b') in 0.021213 seconds
-  Import took 0.026052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_35.png
-  artifactKey: Guid(2e534fe4591c6e44ebde04788cdda9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_35.png using Guid(2e534fe4591c6e44ebde04788cdda9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1902fb17e294ed77482c7554277539a6') in 0.021604 seconds
-  Import took 0.025934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_05.png
-  artifactKey: Guid(971f12ba4e915654586611f195907bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_05.png using Guid(971f12ba4e915654586611f195907bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8bdada8c4c0dce48e4fa2087bc4df5') in 0.021129 seconds
-  Import took 0.025275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-0_5.png
-  artifactKey: Guid(6fd8ed71138095145b6bf9b8221afc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-0_5.png using Guid(6fd8ed71138095145b6bf9b8221afc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8067d6d62992c5cc1157f9446527f4e') in 0.021171 seconds
-  Import took 0.025639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_06.png
-  artifactKey: Guid(785999955721c9e40acdcc2c328bf3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_06.png using Guid(785999955721c9e40acdcc2c328bf3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0effd0cd94e93bbaf8c7de7458ee12e0') in 0.022421 seconds
-  Import took 0.026719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_18.png
-  artifactKey: Guid(9ed47bcbc82514e46b026629ab5ecefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_18.png using Guid(9ed47bcbc82514e46b026629ab5ecefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad92e717e4158add3ce40088b2e42d0') in 0.019973 seconds
-  Import took 0.024736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-1_4.png
-  artifactKey: Guid(34e3d34a36cb27e4f868d6443051f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-1_4.png using Guid(34e3d34a36cb27e4f868d6443051f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50608c30a09b947ad44b8a482f7f24ba') in 0.018205 seconds
-  Import took 0.022138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_17.png
-  artifactKey: Guid(108dbc8e4980ebb4a8c7690d800ccff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_17.png using Guid(108dbc8e4980ebb4a8c7690d800ccff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bbd271b186141d8627bdbd383e7d31') in 0.019528 seconds
-  Import took 0.023515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_45.png
-  artifactKey: Guid(2aa88887fe5ec234db0b77f1d480f828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_45.png using Guid(2aa88887fe5ec234db0b77f1d480f828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7e45616971c8e0333764c5890b33ee') in 0.018426 seconds
-  Import took 0.022402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_25.png
-  artifactKey: Guid(183a62f541a1c2e458b5bda7fd99fd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_25.png using Guid(183a62f541a1c2e458b5bda7fd99fd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b367d4b74bd42a8d8d749067b5e19f') in 0.018931 seconds
-  Import took 0.022895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-1_3.png
-  artifactKey: Guid(889b7c3e4cc887542af815f1dd97b397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-1_3.png using Guid(889b7c3e4cc887542af815f1dd97b397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd735ea82ad472c9920592066c0c10ec3') in 0.032874 seconds
-  Import took 0.037318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_38.png
-  artifactKey: Guid(cbdb9f8790ce8fd4cabbd97e51c1a5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_38.png using Guid(cbdb9f8790ce8fd4cabbd97e51c1a5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64e19124378cfa8580a4f2c50b1836a') in 0.034116 seconds
-  Import took 0.038582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_31.png
-  artifactKey: Guid(98c4b5807e2e005438d120b54fc1ea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_31.png using Guid(98c4b5807e2e005438d120b54fc1ea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7944633542a43c5608cde4ca8ab20b') in 0.018599 seconds
-  Import took 0.022567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_17.png
-  artifactKey: Guid(90def9e8443369c4f9dcff52265e546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_17.png using Guid(90def9e8443369c4f9dcff52265e546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4587176a264dd586e7631c9d584ea00') in 0.019183 seconds
-  Import took 0.023138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_22.png
-  artifactKey: Guid(c236eb342f792f34d8bc2c9b5832790f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_22.png using Guid(c236eb342f792f34d8bc2c9b5832790f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcc7c307dec703106762e8b283df914') in 0.020764 seconds
-  Import took 0.024726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_06.png
-  artifactKey: Guid(5440efe945fd9e549a205c6658fbc30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_06.png using Guid(5440efe945fd9e549a205c6658fbc30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc32410f14b6e9970b8b4707142c398') in 0.019358 seconds
-  Import took 0.024165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_43.png
-  artifactKey: Guid(1984d473ca2e7f64f8c60a1fdc216516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_43.png using Guid(1984d473ca2e7f64f8c60a1fdc216516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e630a271d468fb79679323e70f60d395') in 0.020134 seconds
-  Import took 0.024354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_08.png
-  artifactKey: Guid(3ef20dd0f985b9e4db4365c70101fe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_08.png using Guid(3ef20dd0f985b9e4db4365c70101fe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7c58fcd4cdb7b381048a0d7b27a2af') in 0.021968 seconds
-  Import took 0.028608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_02.png
-  artifactKey: Guid(0c11616e468833f469b5141e45d13096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_02.png using Guid(0c11616e468833f469b5141e45d13096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a3df58df6e3bbbe69a232345771f02') in 0.020484 seconds
-  Import took 0.024795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_16.png
-  artifactKey: Guid(0525260e7e69860468b2f1ba601af9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_16.png using Guid(0525260e7e69860468b2f1ba601af9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da26ac3c0e1c9dd815186e5037438405') in 0.020966 seconds
-  Import took 0.025300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_29.png
-  artifactKey: Guid(54cc10b8b1f9bdb48867eeb370ad43e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_29.png using Guid(54cc10b8b1f9bdb48867eeb370ad43e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff89690c456b5be2838c07c04f921377') in 0.023299 seconds
-  Import took 0.027957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_49.png
-  artifactKey: Guid(b08242c67e40458458d24a189d773e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_49.png using Guid(b08242c67e40458458d24a189d773e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0799c709d49e6cec05c3ef185d275e2f') in 0.020460 seconds
-  Import took 0.024478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-0_2.png
-  artifactKey: Guid(bfa789dc393b2214f9835d0c1ba29009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-0_2.png using Guid(bfa789dc393b2214f9835d0c1ba29009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a595fcbebb0db86c9ec71414e2263af') in 0.020622 seconds
-  Import took 0.025099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_21.png
-  artifactKey: Guid(fd15f696ed11b05429fd49306ef70b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_21.png using Guid(fd15f696ed11b05429fd49306ef70b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e36f407227c1938c7e7ae3a7f6bdba') in 0.021516 seconds
-  Import took 0.025869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-0_7.png
-  artifactKey: Guid(54f45dd8ed7268a4e889ba80a55ef829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-0_7.png using Guid(54f45dd8ed7268a4e889ba80a55ef829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab85caac54590671f6edbededac9c59c') in 0.019324 seconds
-  Import took 0.024216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-2_03.png
-  artifactKey: Guid(fa4388569b8624849ba77327630fb71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-2_03.png using Guid(fa4388569b8624849ba77327630fb71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919f6be2371209659a33cf336c605911') in 0.020629 seconds
-  Import took 0.025630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_48.png
-  artifactKey: Guid(29e1906b54b55b64399016e7adeb1d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_48.png using Guid(29e1906b54b55b64399016e7adeb1d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0352343fb7c7082f97399cdf4d943f9d') in 0.019083 seconds
-  Import took 0.023439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-2_01.png
-  artifactKey: Guid(072c82307ac6b8b4eb1eb7d96775e981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-2_01.png using Guid(072c82307ac6b8b4eb1eb7d96775e981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67c8b33c2ecf799d70f77825ccb0c01') in 0.020234 seconds
-  Import took 0.024233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_24.png
-  artifactKey: Guid(2028fc85ee443824cb91c882e60bc81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_24.png using Guid(2028fc85ee443824cb91c882e60bc81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0064586592b6661672570fc7141c9e1a') in 0.019534 seconds
-  Import took 0.023959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_04.png
-  artifactKey: Guid(2eca7d019853ffb45942543df10d8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_04.png using Guid(2eca7d019853ffb45942543df10d8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eb027505a4d9c745fd60eaecea8858') in 0.021151 seconds
-  Import took 0.025383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_18.png
-  artifactKey: Guid(2113cd766460a1a4c9febebdf58cba8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_18.png using Guid(2113cd766460a1a4c9febebdf58cba8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b41b9eda00fcf09fb66796e46a5344') in 0.020186 seconds
-  Import took 0.024774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_00.png
-  artifactKey: Guid(51fb7eeaa0b47f5479d54d1e0ecc8f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_00.png using Guid(51fb7eeaa0b47f5479d54d1e0ecc8f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1886acd83f7c38874c02822f06fbbfcc') in 0.021166 seconds
-  Import took 0.025412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_32.png
-  artifactKey: Guid(ce28c5a62edb7b3498cb7151991c039d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_32.png using Guid(ce28c5a62edb7b3498cb7151991c039d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080f2bd6ad7b724534c1d54853935a3a') in 0.023092 seconds
-  Import took 0.027515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-2_08.png
-  artifactKey: Guid(43cd7b75727bb9b4aafb14eb9ebddead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-2_08.png using Guid(43cd7b75727bb9b4aafb14eb9ebddead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484def7d0b085f0a70d0b20e5e487ad8') in 0.020100 seconds
-  Import took 0.024298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_36.png
-  artifactKey: Guid(9a03d4b3745787a43bd32c7da869ed3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_36.png using Guid(9a03d4b3745787a43bd32c7da869ed3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b70d9aac1028e7c4ceaa8c4c15c266') in 0.021886 seconds
-  Import took 0.026227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_55.png
-  artifactKey: Guid(84e11be7b558f724fad34084d47b617c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_55.png using Guid(84e11be7b558f724fad34084d47b617c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a691f3d5d94aba07f3e4005811be4f') in 0.020493 seconds
-  Import took 0.024951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_08.png
-  artifactKey: Guid(8834df3d4f4c7f74dab8552f35938c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_08.png using Guid(8834df3d4f4c7f74dab8552f35938c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8c59410c7fe4cfe9f56b1b59e6b480') in 0.018520 seconds
-  Import took 0.023062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_57.png
-  artifactKey: Guid(a4d43058de5aad046acc6bf15bd76191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_57.png using Guid(a4d43058de5aad046acc6bf15bd76191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff0747e60bfc4c4439ca281a2a4d991') in 0.020648 seconds
-  Import took 0.024707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_27.png
-  artifactKey: Guid(732cf92acf7867541a62eede1077e32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_27.png using Guid(732cf92acf7867541a62eede1077e32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4ee375945096a29d8a9cbf6b685f81') in 0.020140 seconds
-  Import took 0.024670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_01.png
-  artifactKey: Guid(b08c6488e09b18140a12ee89ade7e439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_01.png using Guid(b08c6488e09b18140a12ee89ade7e439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606be928de43916cd5c38f3146a96ef3') in 0.022496 seconds
-  Import took 0.027861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_46.png
-  artifactKey: Guid(b3fa7ca4f6878204bbbc91abed3304e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_46.png using Guid(b3fa7ca4f6878204bbbc91abed3304e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1f61d1fe34fbb671d84343331c9d80') in 0.020731 seconds
-  Import took 0.025671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_13.png
-  artifactKey: Guid(a53b1aa7894554d48b413463303b4dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_13.png using Guid(a53b1aa7894554d48b413463303b4dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53f2ac03fb0472c6bdd1aa23bae129e') in 0.020408 seconds
-  Import took 0.025383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_31.png
-  artifactKey: Guid(d4962f0749b5a6b4c8bff57f14954ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_31.png using Guid(d4962f0749b5a6b4c8bff57f14954ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c1ebe49c1e8603c0ff87b2581bfedd') in 0.020393 seconds
-  Import took 0.024668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_24.png
-  artifactKey: Guid(6fcffd1dda0d8bd418a6a58ad64a86b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_24.png using Guid(6fcffd1dda0d8bd418a6a58ad64a86b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802fa253d2e087e84c6dfa83cd572c37') in 0.020296 seconds
-  Import took 0.024744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-0_1.png
-  artifactKey: Guid(e3b9d9463ee094b4a8b243dae682bc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-0_1.png using Guid(e3b9d9463ee094b4a8b243dae682bc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74ddb87f9157aaa1dc6063cc70782ad') in 0.020135 seconds
-  Import took 0.025288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_03.png
-  artifactKey: Guid(eda5c445c848d1849a6019b502ae86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_03.png using Guid(eda5c445c848d1849a6019b502ae86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ca7f309c05a32341e039890eae0b7e') in 0.021037 seconds
-  Import took 0.025482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_12.png
-  artifactKey: Guid(a0f49695991793241a6d25130d73a415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_12.png using Guid(a0f49695991793241a6d25130d73a415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c28b2d0aeafa856876014036958b3a') in 0.019737 seconds
-  Import took 0.024189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_00.png
-  artifactKey: Guid(d0a4be4be41058a47bc0d0bc28e7061f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_00.png using Guid(d0a4be4be41058a47bc0d0bc28e7061f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f2a9a54f20be939d69bca6f76d7834') in 0.019762 seconds
-  Import took 0.023798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_09.png
-  artifactKey: Guid(88ce099cb96981b4da28382c3ab98257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_09.png using Guid(88ce099cb96981b4da28382c3ab98257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf41416331ded0a5bfa4d1c16184dc6') in 0.023183 seconds
-  Import took 0.027234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_15.png
-  artifactKey: Guid(a773bfe6bdb8bf842b52589e2ffeb156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_15.png using Guid(a773bfe6bdb8bf842b52589e2ffeb156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277c67283f0cae59b37def5f85ca2f40') in 0.022033 seconds
-  Import took 0.026325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_27.png
-  artifactKey: Guid(ab833e5b21dc0ad40af5245b3caa397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_27.png using Guid(ab833e5b21dc0ad40af5245b3caa397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffcd9303faa548b4d7bfdd17414103a') in 0.019071 seconds
-  Import took 0.023180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_28.png
-  artifactKey: Guid(339c300ea6d8dda499f81a34fd1450b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_28.png using Guid(339c300ea6d8dda499f81a34fd1450b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662e46cbe6d83d4e65f50e0fa5091805') in 0.019646 seconds
-  Import took 0.023995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-2_00.png
-  artifactKey: Guid(b1c1c3f8ac53dda448d75f29373686fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-2_00.png using Guid(b1c1c3f8ac53dda448d75f29373686fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df033def47e0253cae97cc803b4469c') in 0.020305 seconds
-  Import took 0.024274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_50.png
-  artifactKey: Guid(571f7d0c1cf08fe48b270b4eb66f948e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_50.png using Guid(571f7d0c1cf08fe48b270b4eb66f948e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5308734cf59ea812e2d308c2a46de93') in 0.019690 seconds
-  Import took 0.023571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-0_0.png
-  artifactKey: Guid(30199f8f2b011014aae38dd45c0b9070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-0_0.png using Guid(30199f8f2b011014aae38dd45c0b9070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9e9cb19603320697230d94e7bce1a7') in 0.020026 seconds
-  Import took 0.024027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-1_0.png
-  artifactKey: Guid(85a03f7759204b5428be1059035fc76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-1_0.png using Guid(85a03f7759204b5428be1059035fc76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47fece9dcd2de9b41050f724287e258') in 0.020011 seconds
-  Import took 0.023970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_01.png
-  artifactKey: Guid(fa79776b4b8991149bcabe48388a199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_01.png using Guid(fa79776b4b8991149bcabe48388a199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82e10facbff0efa81fe673b7918d955') in 0.019426 seconds
-  Import took 0.023597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_15.png
-  artifactKey: Guid(298d366f4b92b19459ee91a2e80316ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_15.png using Guid(298d366f4b92b19459ee91a2e80316ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728fed3c50137861ff8bb5d82b8a287f') in 0.018974 seconds
-  Import took 0.023009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_29.png
-  artifactKey: Guid(11fd848730f64b349a63efcf02f22a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_29.png using Guid(11fd848730f64b349a63efcf02f22a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35552c4e1ca437b6242817d7fb928a52') in 0.019072 seconds
-  Import took 0.023481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_02.png
-  artifactKey: Guid(2d9e2e93926f2694bb476e8a5cb9d46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_02.png using Guid(2d9e2e93926f2694bb476e8a5cb9d46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14c2c9a0d39f9ba67e5eee548edc472') in 0.020536 seconds
-  Import took 0.025132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_19.png
-  artifactKey: Guid(56becaaf864bbb5469af6015a5a192b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_19.png using Guid(56becaaf864bbb5469af6015a5a192b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be5b61d51f28f1a8229ac000de2c1a0') in 0.025085 seconds
-  Import took 0.029133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_16.png
-  artifactKey: Guid(35e9aa9a999e41a4a9b8a28b168f6276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_16.png using Guid(35e9aa9a999e41a4a9b8a28b168f6276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0aff526b114ee802b2f000fc8471e10') in 0.023775 seconds
-  Import took 0.028474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_54.png
-  artifactKey: Guid(8b3257b9aa1def3469ef7285dc9aec50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_54.png using Guid(8b3257b9aa1def3469ef7285dc9aec50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9167accdf5678511e59864812310cd9') in 0.022074 seconds
-  Import took 0.026693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Materials/Robin/jump/robin_hood-jump-2_07.png
-  artifactKey: Guid(9d419d71741d7db448302e55f74268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/jump/robin_hood-jump-2_07.png using Guid(9d419d71741d7db448302e55f74268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120256a00fc6a3d42f70b6a5237f98ad') in 0.023564 seconds
-  Import took 0.027916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Materials/Robin/run/robin_hood-walk_26.png
-  artifactKey: Guid(5c40a87b461c06640bf717e5751215a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/run/robin_hood-walk_26.png using Guid(5c40a87b461c06640bf717e5751215a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a750dd260f1a243ea19f7df360ebcce') in 0.020667 seconds
-  Import took 0.024758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_62.png
-  artifactKey: Guid(58f5a0efadb6bc14593c48f35f05d75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_62.png using Guid(58f5a0efadb6bc14593c48f35f05d75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed20e09674973e9eef65fb945d6b6ee') in 0.022417 seconds
-  Import took 0.027201 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Materials/Robin/idle/robin_hood-idle_59.png
-  artifactKey: Guid(a3ce7ffdbae3e6141825d629bfa274b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Robin/idle/robin_hood-idle_59.png using Guid(a3ce7ffdbae3e6141825d629bfa274b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf5e21c45e8f68c4c11ac443ade9fe0') in 0.025054 seconds
-  Import took 0.029719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.765984 seconds.
-  path: Assets/Materials/Prefabs/arrow.prefab
-  artifactKey: Guid(6176de9d17569474b8cb9a976e4aaf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Prefabs/arrow.prefab using Guid(6176de9d17569474b8cb9a976e4aaf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfcea0e9ae5d03bbf1307268f1fe24b') in 0.060326 seconds
-  Import took 0.064851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.291667 seconds.
-  path: Assets/Materials/Animate/jump.anim
-  artifactKey: Guid(254c638e7690b4c44b12b8c318ce92bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Animate/jump.anim using Guid(254c638e7690b4c44b12b8c318ce92bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fc3648c0b4020802162ef55dcdb1e8') in 0.011636 seconds
-  Import took 0.016056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012162 seconds.
-  path: Assets/Materials/Animate/jump.anim
-  artifactKey: Guid(254c638e7690b4c44b12b8c318ce92bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Animate/jump.anim using Guid(254c638e7690b4c44b12b8c318ce92bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fc3648c0b4020802162ef55dcdb1e8') in 0.003986 seconds
-  Import took 0.008130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.222751 seconds.
-  path: Assets/Materials/Animate/Hero.controller
-  artifactKey: Guid(ffb3c1c9b0b3cc646a691fb6118e953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Animate/Hero.controller using Guid(ffb3c1c9b0b3cc646a691fb6118e953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce8bad7c4f3a72544c616eb84db66fb') in 0.025523 seconds
-  Import took 0.030929 seconds .
+  path: Assets/Materials/Scripts/PlayerController.cs
+  artifactKey: Guid(a85269a84c20d774f90dac1f4848b8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scripts/PlayerController.cs using Guid(a85269a84c20d774f90dac1f4848b8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48828e0846788b39be821db2c9fe21a0') in 0.048161 seconds
+  Import took 0.052292 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001665 seconds.
+Registered in 0.001594 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.409 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.483 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.4 MB.
-System memory in use after: 100.0 MB.
+System memory in use before: 98.2 MB.
+System memory in use after: 96.9 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2518.
-Total: 4.340600 ms (FindLiveObjects: 0.371800 ms CreateObjectMapping: 0.098400 ms MarkObjects: 2.173900 ms  DeleteObjects: 1.695200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 529.112885 seconds.
-  path: Assets/Materials/Scripts/Bow.cs
-  artifactKey: Guid(7dd33ddaf5653284aa5d07e8f0888bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Bow.cs using Guid(7dd33ddaf5653284aa5d07e8f0888bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e571491a3b5b190e35e9472d30d8372') in 0.026897 seconds
-  Import took 0.032103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023328 seconds.
-  path: Assets/Materials/Scripts/Bow.cs
-  artifactKey: Guid(7dd33ddaf5653284aa5d07e8f0888bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Bow.cs using Guid(7dd33ddaf5653284aa5d07e8f0888bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e571491a3b5b190e35e9472d30d8372') in 0.003454 seconds
-  Import took 0.008632 seconds .
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2500.
+Total: 4.270600 ms (FindLiveObjects: 0.354100 ms CreateObjectMapping: 0.103500 ms MarkObjects: 2.084600 ms  DeleteObjects: 1.726700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002003 seconds.
+Registered in 0.001693 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.705 seconds
+- Completed reload, in  1.514 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.4 MB.
-System memory in use after: 100.1 MB.
+System memory in use before: 98.3 MB.
+System memory in use after: 97.0 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2522.
-Total: 6.197500 ms (FindLiveObjects: 0.559500 ms CreateObjectMapping: 0.118100 ms MarkObjects: 2.883100 ms  DeleteObjects: 2.634700 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2504.
+Total: 5.137100 ms (FindLiveObjects: 0.419300 ms CreateObjectMapping: 0.123300 ms MarkObjects: 2.744200 ms  DeleteObjects: 1.848500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001590 seconds.
+Registered in 0.001969 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.479 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.497 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.5 MB.
-System memory in use after: 100.2 MB.
+System memory in use before: 98.3 MB.
+System memory in use after: 97.0 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2526.
-Total: 4.954500 ms (FindLiveObjects: 0.497800 ms CreateObjectMapping: 0.107200 ms MarkObjects: 2.441900 ms  DeleteObjects: 1.905900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 146.838774 seconds.
-  path: Assets/Spine Examples/Spine Skeletons/Goblins/dagger.png
-  artifactKey: Guid(2412d1d8498463f49ae6ebe3a66ffae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Spine Skeletons/Goblins/dagger.png using Guid(2412d1d8498463f49ae6ebe3a66ffae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3195edc50dc67e88cb277769ad84ef84') in 0.137298 seconds
-  Import took 0.144756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014459 seconds.
-  path: Assets/Spine Examples/Spine Skeletons/spineboy-unity/Equips/goggles-tactical.png
-  artifactKey: Guid(4f554405f8f06164db0773d689da243c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Spine Skeletons/spineboy-unity/Equips/goggles-tactical.png using Guid(4f554405f8f06164db0773d689da243c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44568d3b967c21d49a3a2ffbbdbac2ea') in 0.042124 seconds
-  Import took 0.052431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Spine Examples/Spine Skeletons/spineboy-unity/Equips/goggles-normal.png
-  artifactKey: Guid(32997c96a91b5904aa064f961fa62937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Spine Skeletons/spineboy-unity/Equips/goggles-normal.png using Guid(32997c96a91b5904aa064f961fa62937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2188c23aedb01d2787a3cecfac01ea5f') in 0.036342 seconds
-  Import took 0.041551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Spine Examples/Spine Skeletons/spineboy-unity/Equips/gun-normal.png
-  artifactKey: Guid(602e098a046fa6e42a109d3e45c590f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Spine Skeletons/spineboy-unity/Equips/gun-normal.png using Guid(602e098a046fa6e42a109d3e45c590f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0522ee34f34427ba16d09e141fda0da7') in 0.037550 seconds
-  Import took 0.042502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Spine Examples/Spine Skeletons/Goblins/dagger.png
-  artifactKey: Guid(2412d1d8498463f49ae6ebe3a66ffae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Spine Skeletons/Goblins/dagger.png using Guid(2412d1d8498463f49ae6ebe3a66ffae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3195edc50dc67e88cb277769ad84ef84') in 0.013972 seconds
-  Import took 0.018434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Spine Examples/Images/outline-shaders-heading.png
-  artifactKey: Guid(de1fb4dac677a6d45ae2ad12a49091c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Images/outline-shaders-heading.png using Guid(de1fb4dac677a6d45ae2ad12a49091c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc92cba1bebfbcb9f4c52986bb57762f') in 0.041705 seconds
-  Import took 0.046487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/SpriteMask_Mask.png
-  artifactKey: Guid(eb942ce288aa1654dbf5ed0cad424cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/SpriteMask_Mask.png using Guid(eb942ce288aa1654dbf5ed0cad424cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5bf548a9ef85db4f2e3bac2954ac35') in 0.036132 seconds
-  Import took 0.040063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Spine Examples/Spine Skeletons/spineboy-unity/Equips/gun-freeze.png
-  artifactKey: Guid(02c4cbcce432ae74bb2d965060e64d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Spine Skeletons/spineboy-unity/Equips/gun-freeze.png using Guid(02c4cbcce432ae74bb2d965060e64d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321abe1f987cbe467c30c9569fdc9dad') in 0.038042 seconds
-  Import took 0.042197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Spine Examples/Spine Skeletons/square32.png
-  artifactKey: Guid(718074e4e56a5404e824bf8e6571ea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spine Examples/Spine Skeletons/square32.png using Guid(718074e4e56a5404e824bf8e6571ea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75efeb185eff8d270c8bbb55ac194f2a') in 0.033803 seconds
-  Import took 0.038535 seconds .
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2508.
+Total: 4.912200 ms (FindLiveObjects: 0.376600 ms CreateObjectMapping: 0.102300 ms MarkObjects: 2.454800 ms  DeleteObjects: 1.976800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001701 seconds.
+Registered in 0.001838 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.491 seconds
+- Completed reload, in  1.450 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 4.908100 ms (FindLiveObjects: 0.363100 ms CreateObjectMapping: 0.097900 ms MarkObjects: 2.373700 ms  DeleteObjects: 2.072000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.452 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.5 MB.
-System memory in use after: 100.2 MB.
+System memory in use before: 98.3 MB.
+System memory in use after: 97.0 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2544.
-Total: 4.983200 ms (FindLiveObjects: 0.406400 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.436300 ms  DeleteObjects: 2.041400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.261516 seconds.
-  path: Assets/Materials/Prefabs/point.prefab
-  artifactKey: Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Prefabs/point.prefab using Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca62f0aa38df7e9dfb37fad59ac2a8c') in 0.079121 seconds
-  Import took 0.083445 seconds .
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2516.
+Total: 4.410000 ms (FindLiveObjects: 0.340400 ms CreateObjectMapping: 0.095900 ms MarkObjects: 2.121100 ms  DeleteObjects: 1.851400 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 7.035926 seconds.
-  path: Assets/Materials/Prefabs/point.prefab
-  artifactKey: Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Prefabs/point.prefab using Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e97d07d36180b3ca297cd20d8dfaf27') in 0.018945 seconds
-  Import took 0.024995 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001833 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.471 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2520.
+Total: 4.739000 ms (FindLiveObjects: 0.341600 ms CreateObjectMapping: 0.106400 ms MarkObjects: 2.314300 ms  DeleteObjects: 1.975300 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 1.332598 seconds.
-  path: Assets/Materials/Prefabs/point.prefab
-  artifactKey: Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Prefabs/point.prefab using Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45b9430fb13bfe54039afa4169c982a') in 0.021194 seconds
-  Import took 0.026037 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001618 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.432 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2524.
+Total: 4.702600 ms (FindLiveObjects: 0.368800 ms CreateObjectMapping: 0.107300 ms MarkObjects: 2.183500 ms  DeleteObjects: 2.041300 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 1.999859 seconds.
-  path: Assets/Materials/Prefabs/point.prefab
-  artifactKey: Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Prefabs/point.prefab using Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db13d35d27032fef926facae9456c4ba') in 0.016067 seconds
-  Import took 0.021152 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.410 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2528.
+Total: 4.892400 ms (FindLiveObjects: 0.375000 ms CreateObjectMapping: 0.096800 ms MarkObjects: 2.299600 ms  DeleteObjects: 2.119200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002078 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.431 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2532.
+Total: 4.834900 ms (FindLiveObjects: 0.403200 ms CreateObjectMapping: 0.099300 ms MarkObjects: 2.200400 ms  DeleteObjects: 2.129800 ms)
 
 ========================================================================
 Received Prepare
@@ -1272,151 +260,147 @@ Registering precompiled user dll's ...
 Registered in 0.001721 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.461 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.633 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 100.2 MB.
+System memory in use before: 98.4 MB.
+System memory in use after: 97.1 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2549.
-Total: 5.362300 ms (FindLiveObjects: 0.394100 ms CreateObjectMapping: 0.109100 ms MarkObjects: 2.517400 ms  DeleteObjects: 2.339700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.525751 seconds.
-  path: Assets/Materials/Prefabs/point.prefab
-  artifactKey: Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Prefabs/point.prefab using Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067db7c3b6a0c0c190c45f933c6fa8a1') in 0.091887 seconds
-  Import took 0.097258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.350556 seconds.
-  path: Assets/Materials/Prefabs/point.prefab
-  artifactKey: Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Prefabs/point.prefab using Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4a5401270e7183b3d65fef4235b1d9') in 0.014910 seconds
-  Import took 0.019701 seconds .
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2536.
+Total: 4.617900 ms (FindLiveObjects: 0.333000 ms CreateObjectMapping: 0.112400 ms MarkObjects: 2.199800 ms  DeleteObjects: 1.971400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001898 seconds.
+Registered in 0.001679 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.480 seconds
+- Completed reload, in  1.421 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 100.3 MB.
+System memory in use before: 98.4 MB.
+System memory in use after: 97.1 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2554.
-Total: 4.715000 ms (FindLiveObjects: 0.382300 ms CreateObjectMapping: 0.097400 ms MarkObjects: 2.234500 ms  DeleteObjects: 1.999000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.372512 seconds.
-  path: Assets/Materials/Prefabs/point.prefab
-  artifactKey: Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Prefabs/point.prefab using Guid(86555a17ff917724bb8d5faf11efc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b9115de8625650d25fdd35761fdd62') in 0.079182 seconds
-  Import took 0.083865 seconds .
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2540.
+Total: 4.961400 ms (FindLiveObjects: 0.362600 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.371800 ms  DeleteObjects: 2.128400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001664 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.427 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 100.3 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2559.
-Total: 4.921700 ms (FindLiveObjects: 0.391400 ms CreateObjectMapping: 0.103700 ms MarkObjects: 2.344200 ms  DeleteObjects: 2.080600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001759 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.429 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 100.3 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2563.
-Total: 4.903500 ms (FindLiveObjects: 0.416900 ms CreateObjectMapping: 0.118100 ms MarkObjects: 2.112800 ms  DeleteObjects: 2.254200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001812 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.450 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.7 MB.
-System memory in use after: 100.3 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2567.
-Total: 4.592200 ms (FindLiveObjects: 0.372400 ms CreateObjectMapping: 0.095800 ms MarkObjects: 2.107000 ms  DeleteObjects: 2.015500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001585 seconds.
+Registered in 0.002063 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.580 seconds
+- Completed reload, in  1.506 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.7 MB.
-System memory in use after: 100.3 MB.
+System memory in use before: 98.4 MB.
+System memory in use after: 97.1 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2571.
-Total: 6.734900 ms (FindLiveObjects: 0.475500 ms CreateObjectMapping: 0.123600 ms MarkObjects: 3.057600 ms  DeleteObjects: 3.076200 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2544.
+Total: 4.745800 ms (FindLiveObjects: 0.341300 ms CreateObjectMapping: 0.103900 ms MarkObjects: 2.215500 ms  DeleteObjects: 2.083900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001651 seconds.
+Registered in 0.001624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.372 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2548.
+Total: 4.746300 ms (FindLiveObjects: 0.390700 ms CreateObjectMapping: 0.106300 ms MarkObjects: 2.201000 ms  DeleteObjects: 2.046600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001974 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.400 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2552.
+Total: 4.706500 ms (FindLiveObjects: 0.390100 ms CreateObjectMapping: 0.109100 ms MarkObjects: 2.187400 ms  DeleteObjects: 2.018500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001592 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.394 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 4.928400 ms (FindLiveObjects: 0.369700 ms CreateObjectMapping: 0.121100 ms MarkObjects: 2.210800 ms  DeleteObjects: 2.224800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001628 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.387 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2560.
+Total: 4.742500 ms (FindLiveObjects: 0.362900 ms CreateObjectMapping: 0.104900 ms MarkObjects: 2.130900 ms  DeleteObjects: 2.141800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001596 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.420 seconds
@@ -1424,90 +408,90 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 100.3 MB.
+System memory in use before: 98.5 MB.
+System memory in use after: 97.1 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2575.
-Total: 4.878500 ms (FindLiveObjects: 0.361700 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.251300 ms  DeleteObjects: 2.166100 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2564.
+Total: 5.193400 ms (FindLiveObjects: 0.402900 ms CreateObjectMapping: 0.097700 ms MarkObjects: 2.601100 ms  DeleteObjects: 2.089600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001668 seconds.
+Registered in 0.001739 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.434 seconds
+- Completed reload, in  1.418 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 100.3 MB.
+System memory in use before: 98.5 MB.
+System memory in use after: 97.1 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2579.
-Total: 5.207800 ms (FindLiveObjects: 0.443100 ms CreateObjectMapping: 0.106600 ms MarkObjects: 2.528700 ms  DeleteObjects: 2.127500 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2568.
+Total: 4.542500 ms (FindLiveObjects: 0.337800 ms CreateObjectMapping: 0.099500 ms MarkObjects: 2.101400 ms  DeleteObjects: 2.002100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001653 seconds.
+Registered in 0.001640 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.440 seconds
+- Completed reload, in  1.414 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 100.3 MB.
+System memory in use before: 98.5 MB.
+System memory in use after: 97.1 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2583.
-Total: 4.498500 ms (FindLiveObjects: 0.371600 ms CreateObjectMapping: 0.099600 ms MarkObjects: 2.100600 ms  DeleteObjects: 1.925100 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2572.
+Total: 30.932800 ms (FindLiveObjects: 0.374500 ms CreateObjectMapping: 0.098800 ms MarkObjects: 2.181000 ms  DeleteObjects: 28.276300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001670 seconds.
+Registered in 0.001551 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.415 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2576.
+Total: 4.994700 ms (FindLiveObjects: 0.400900 ms CreateObjectMapping: 0.101700 ms MarkObjects: 2.417500 ms  DeleteObjects: 2.072600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002354 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.460 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.422 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.7 MB.
-System memory in use after: 100.3 MB.
+System memory in use before: 98.5 MB.
+System memory in use after: 97.2 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2587.
-Total: 4.540000 ms (FindLiveObjects: 0.346700 ms CreateObjectMapping: 0.105400 ms MarkObjects: 2.069300 ms  DeleteObjects: 2.017300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001677 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.435 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.7 MB.
-System memory in use after: 100.3 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2591.
-Total: 4.815200 ms (FindLiveObjects: 0.368200 ms CreateObjectMapping: 0.101900 ms MarkObjects: 2.276600 ms  DeleteObjects: 2.067200 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 6.870200 ms (FindLiveObjects: 0.404900 ms CreateObjectMapping: 0.104400 ms MarkObjects: 3.521800 ms  DeleteObjects: 2.837200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

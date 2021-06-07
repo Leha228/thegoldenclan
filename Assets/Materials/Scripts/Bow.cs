@@ -37,11 +37,7 @@ public class Bow : MonoBehaviour
         Vector2 dir = mousePosition - bowPosition;
         transform.right = dir;
 
-        if (Input.GetButtonDown("Fire1"))
-        {
-            Invoke(nameof(shoot), 0.5f);
-            //shoot();
-        }
+        
 
         if (Input.GetButton("Fire2"))
         {
@@ -60,6 +56,12 @@ public class Bow : MonoBehaviour
             {
                 points[i].active = true;
                 points[i].transform.position = pointPosition(i * spaceBetweenPoint);
+            }
+
+            if (Input.GetButtonDown("Fire1"))
+            {
+                //Invoke(nameof(shoot), 0.5f);
+                shoot();
             }
         } 
         else

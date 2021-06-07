@@ -7,14 +7,14 @@ using Spine;
 public class Arrow : MonoBehaviour
 {
 
-    private SkeletonBone skeleton;
-    public Bone bone;
-    public SkeletonRenderer skeletonRenderer;
     Rigidbody2D rb;
+    private bool hasHit;
+    GameObject enemy;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        enemy = GameObject.Find("Enemy");
     }
 
 
@@ -31,9 +31,21 @@ public class Arrow : MonoBehaviour
 
     private void rotate()
     {
-        var dir = rb.velocity;
-        var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle);
+        if (!hasHit)
+        {
+            var dir = rb.velocity;
+            var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, 0, angle);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.name == "Player") return;
+
+        hasHit = true;
+        rb.velocity = Vector2.zero;
+        rb.isKinematic = true;
     }
 
 }

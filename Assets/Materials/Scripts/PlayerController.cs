@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     public SkeletonAnimation skeletonAnimation;
     public SkeletonData skeletonData;
-    public AnimationReferenceAsset idle, walk, jumping, attacking, aiming;
+    public AnimationReferenceAsset idle, walk, jumping, attacking, aiming, aiming1;
     private string currentState;
     private string prevState;
     private string currentAnimation;
@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     private float move;
 
     private Rigidbody2D rb;
-    Bone bone;
+    private bool aimBool = false;
 
     void Start()
     {
@@ -37,15 +37,27 @@ public class PlayerController : MonoBehaviour
 
     private void run()
     {
-        if (Input.GetButton("Fire2")) aim();
-        if (Input.GetButtonDown("Fire1")) attack();
+        if (Input.GetButton("Fire2"))
+        {
+            aimBool = true;
+            aim();
+            if (Input.GetButtonDown("Fire1")) attack();
+        }
+        else
+        {
+            if (aimBool)
+            {
+                setCharacterState("idle");
+                aimBool = false;
+            }
+        }
 
         move = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(move * speed, rb.velocity.y);
 
         if (move != 0)
         {
-            if (!currentState.Equals("jump") && !currentState.Equals("attack") && !currentState.Equals("aim")) { setCharacterState("walk"); }
+            if (!currentState.Equals("jump") && !currentState.Equals("aim")) { setCharacterState("walk"); }
             if (move > 0)
                 transform.localScale = new Vector2(0.6f, 0.6f);
             else
@@ -53,7 +65,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            if (!currentState.Equals("jump") && !currentState.Equals("attack") && !currentState.Equals("aim")) { setCharacterState("idle"); }
+            if (!currentState.Equals("jump") && !currentState.Equals("aim") && !currentState.Equals("aim1") && !currentState.Equals("attack_aim")) { setCharacterState("idle"); }
         }
 
         if (Input.GetButtonDown("Jump"))
@@ -70,12 +82,12 @@ public class PlayerController : MonoBehaviour
 
     private void attack()
     {
-        if (!currentState.Equals("attack")) { prevState = currentState; }
-        setCharacterState("attack");
+        setCharacterState("attack_aim");
     }
 
     private void aim()
     {
+        if (currentState.Equals("aim1")) return;
         if (!currentState.Equals("aim")) { prevState = currentState; }
         setCharacterState("aim");
     }
@@ -83,6 +95,8 @@ public class PlayerController : MonoBehaviour
     public void setAnimation(AnimationReferenceAsset animation, bool loop, float timeScale)
     {
         if (animation.name.Equals(currentAnimation)) { return; }
+
+        //Debug.Log(currentState);
 
         TrackEntry animationEntry = skeletonAnimation.state.SetAnimation(0, animation, loop);
         animationEntry.TimeScale = timeScale;
@@ -93,8 +107,8 @@ public class PlayerController : MonoBehaviour
     private void AnimationEntry_Complete(Spine.TrackEntry trackEntry)
     {
         if (currentState.Equals("jump")) { setCharacterState(prevState); }
-        if (currentState.Equals("attack")) { setCharacterState(prevState); }
-        //if (currentState.Equals("aim")) { setCharacterState(prevState); }
+        if (currentState.Equals("attack_aim")) { setCharacterState("aim"); }
+        if (currentState.Equals("aim")) { setCharacterState("aim1"); }
     }
 
     public void setCharacterState(string state)
@@ -105,7 +119,9 @@ public class PlayerController : MonoBehaviour
             setAnimation(jumping, false, 1f);
         else if (state.Equals("aim"))
             setAnimation(aiming, false, 1f);
-        else if (state.Equals("attack"))
+        else if (state.Equals("aim1"))
+            setAnimation(aiming1, false, 1f);
+        else if (state.Equals("attack_aim"))
             setAnimation(attacking, false, 1f);
         else
             setAnimation(idle, true, 1f);
