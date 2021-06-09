@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Spine.Unity;
 using Spine;
+using System;
 
 public class Arrow : MonoBehaviour
 {
@@ -11,14 +12,15 @@ public class Arrow : MonoBehaviour
     private bool hasHit;
     GameObject enemy;
 
+    public int damage = 10;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         enemy = GameObject.Find("Enemy");
+
     }
 
-
-    // Update is called once per frame
     void Update()
     {
 
