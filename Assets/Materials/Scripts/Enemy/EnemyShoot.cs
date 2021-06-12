@@ -12,13 +12,11 @@ public class EnemyShoot : MonoBehaviour
     private float launchForce;
     private bool movePlayer = true;
 
-    // Start is called before the first frame update
     void Start()
     {
  
     }
 
-    // Update is called once per frame
     [Obsolete]
     void Update()
     {
@@ -43,7 +41,14 @@ public class EnemyShoot : MonoBehaviour
 
     private void shoot()
     {
-        GameObject newArrow = Instantiate(arrow, shootPoint.position, shootPoint.rotation);
+        Vector2 bowPosition = transform.position;
+        Vector2 playerPosition = player.transform.position;
+        var dir = playerPosition - bowPosition;
+        var euler = transform.eulerAngles;
+        euler.z = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 30.0f; //random
+        transform.eulerAngles = euler;
+
+        GameObject newArrow = Instantiate(arrow, shootPoint.position, transform.rotation);
         newArrow.GetComponent<Rigidbody2D>().velocity = transform.right * launchForce;
     }
 
