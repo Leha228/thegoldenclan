@@ -1,26 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Spine.Unity;
 using Spine;
-using System;
 
 public class PlayerController : MonoBehaviour
 {
 
     public SkeletonAnimation skeletonAnimation;
     public SkeletonData skeletonData;
-    public AnimationReferenceAsset idle, walk, jumping, attacking, aiming, aiming1;
+    public AnimationReferenceAsset idle, walk, jumping, attacking, aiming;
     private string currentState;
     private string prevState;
     private string currentAnimation;
 
     public float speed = 3f;
-    public float jumpForce = 1f;
+    public float jumpForce = 5f;
     private float move;
 
     private Rigidbody2D rb;
     private bool aimBool = false;
+    private CameraController cameraController;
+    public Camera cam;
+
+
 
     void Start()
     {
@@ -28,11 +29,20 @@ public class PlayerController : MonoBehaviour
         currentState = "idle";
 
         setCharacterState(currentState);
+
+        cameraController = cam.GetComponent<CameraController>();
     }
 
     void Update()
     {
         run();
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.collider.name != "finish") return;
+        
+        cameraController.nextLevel();
     }
 
     private void run()
@@ -57,11 +67,11 @@ public class PlayerController : MonoBehaviour
 
         if (move != 0)
         {
-            if (!currentState.Equals("jump") && !currentState.Equals("aim")) { setCharacterState("walk"); }
+            if (!currentState.Equals("jump") && !currentState.Equals("aim") && !currentState.Equals("aim1")) { setCharacterState("walk"); }
             if (move > 0)
-                transform.localScale = new Vector2(0.6f, 0.6f);
+                transform.localScale = new Vector2(0.5f, 0.5f);
             else
-                transform.localScale = new Vector2(-0.6f, 0.6f);
+                transform.localScale = new Vector2(-0.5f, 0.5f);
         }
         else
         {
@@ -87,44 +97,45 @@ public class PlayerController : MonoBehaviour
 
     private void aim()
     {
-        if (currentState.Equals("aim1")) return;
         if (!currentState.Equals("aim")) { prevState = currentState; }
         setCharacterState("aim");
     }
 
-    public void setAnimation(AnimationReferenceAsset animation, bool loop, float timeScale)
+    public void setAnimation(int index, AnimationReferenceAsset animation, bool loop, float timeScale)
     {
         if (animation.name.Equals(currentAnimation)) { return; }
 
-        //Debug.Log(currentState);
 
-        TrackEntry animationEntry = skeletonAnimation.state.SetAnimation(0, animation, loop);
+        TrackEntry animationEntry = skeletonAnimation.state.SetAnimation(index, animation, loop);
         animationEntry.TimeScale = timeScale;
         animationEntry.Complete += AnimationEntry_Complete;
         currentAnimation = animation.name;
+    }
+
+    public void addAnimation(AnimationReferenceAsset animation, bool loop) {
+        TrackEntry animationEntry = skeletonAnimation.state.AddAnimation(1, animation, loop, 0);
+        animationEntry.Complete += AnimationEntry_Complete;
     }
 
     private void AnimationEntry_Complete(Spine.TrackEntry trackEntry)
     {
         if (currentState.Equals("jump")) { setCharacterState(prevState); }
         if (currentState.Equals("attack_aim")) { setCharacterState("aim"); }
-        if (currentState.Equals("aim")) { setCharacterState("aim1"); }
+        //if (currentState.Equals("aim")) { setCharacterState("aim1"); }
     }
 
     public void setCharacterState(string state)
     {
         if (state.Equals("walk"))
-            setAnimation(walk, true, 1.6f);
+            setAnimation(0, walk, true, 1.6f);
         else if (state.Equals("jump"))
-            setAnimation(jumping, false, 1f);
+            setAnimation(0, jumping, false, 0.7f);
         else if (state.Equals("aim"))
-            setAnimation(aiming, false, 1f);
-        else if (state.Equals("aim1"))
-            setAnimation(aiming1, false, 1f);
+            setAnimation(0, aiming, false, 1f);
         else if (state.Equals("attack_aim"))
-            setAnimation(attacking, false, 1f);
+            setAnimation(0, attacking, false, 1f);
         else
-            setAnimation(idle, true, 1f);
+            setAnimation(0, idle, true, 1f);
 
         currentState = state;
     }

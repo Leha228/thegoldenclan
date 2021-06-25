@@ -1,0 +1,181 @@
+
+monk2.png
+size: 1364,397
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eye
+  rotate: true
+  xy: 95, 2
+  size: 30, 44
+  orig: 32, 46
+  offset: 1, 1
+  index: -1
+L_Plam
+  rotate: false
+  xy: 444, 10
+  size: 76, 76
+  orig: 78, 78
+  offset: 1, 1
+  index: -1
+L_boot
+  rotate: false
+  xy: 522, 5
+  size: 119, 86
+  orig: 121, 88
+  offset: 1, 1
+  index: -1
+L_hand
+  rotate: true
+  xy: 1138, 162
+  size: 72, 109
+  orig: 72, 109
+  offset: 0, 0
+  index: -1
+L_hand2
+  rotate: true
+  xy: 245, 2
+  size: 84, 90
+  orig: 84, 90
+  offset: 0, 0
+  index: -1
+L_leg
+  rotate: false
+  xy: 394, 6
+  size: 48, 80
+  orig: 50, 82
+  offset: 1, 1
+  index: -1
+L_palm
+  rotate: false
+  xy: 643, 6
+  size: 70, 85
+  orig: 72, 87
+  offset: 1, 1
+  index: -1
+R_boot
+  rotate: true
+  xy: 1249, 142
+  size: 92, 100
+  orig: 94, 102
+  offset: 1, 1
+  index: -1
+R_finger
+  rotate: true
+  xy: 141, 5
+  size: 27, 34
+  orig: 29, 36
+  offset: 1, 1
+  index: -1
+R_hand
+  rotate: false
+  xy: 1051, 22
+  size: 94, 119
+  orig: 117, 130
+  offset: 10, 0
+  index: -1
+R_hand_2
+  rotate: true
+  xy: 1147, 45
+  size: 95, 181
+  orig: 95, 181
+  offset: 0, 0
+  index: -1
+R_leg
+  rotate: false
+  xy: 337, 5
+  size: 55, 81
+  orig: 57, 83
+  offset: 1, 1
+  index: -1
+arrow
+  rotate: true
+  xy: 2, 22
+  size: 373, 43
+  orig: 375, 45
+  offset: 1, 1
+  index: -1
+beard
+  rotate: false
+  xy: 1330, 88
+  size: 31, 52
+  orig: 33, 54
+  offset: 1, 1
+  index: -1
+body1
+  rotate: false
+  xy: 715, 2
+  size: 98, 136
+  orig: 98, 136
+  offset: 0, 0
+  index: -1
+body2
+  rotate: false
+  xy: 941, 143
+  size: 195, 252
+  orig: 195, 256
+  offset: 0, 0
+  index: -1
+bow
+  rotate: false
+  xy: 47, 34
+  size: 196, 361
+  orig: 198, 364
+  offset: 1, 2
+  index: -1
+bowstring
+  rotate: false
+  xy: 245, 88
+  size: 212, 307
+  orig: 212, 307
+  offset: 0, 0
+  index: -1
+eyebrow
+  rotate: false
+  xy: 2, 2
+  size: 36, 18
+  orig: 38, 20
+  offset: 1, 1
+  index: -1
+hair
+  rotate: true
+  xy: 1138, 236
+  size: 159, 224
+  orig: 161, 226
+  offset: 1, 1
+  index: -1
+head
+  rotate: false
+  xy: 711, 140
+  size: 228, 255
+  orig: 230, 257
+  offset: 1, 1
+  index: -1
+hood
+  rotate: false
+  xy: 459, 93
+  size: 250, 302
+  orig: 250, 302
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 40, 3
+  size: 53, 17
+  orig: 55, 19
+  offset: 1, 1
+  index: -1
+neck
+  rotate: false
+  xy: 177, 13
+  size: 53, 19
+  orig: 55, 21
+  offset: 1, 1
+  index: -1
+quiver_of_arrows
+  rotate: true
+  xy: 815, 3
+  size: 135, 234
+  orig: 137, 236
+  offset: 1, 1
+  index: -1

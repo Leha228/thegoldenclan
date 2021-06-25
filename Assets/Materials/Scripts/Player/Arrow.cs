@@ -1,9 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
-using Spine.Unity;
-using Spine;
-using System;
 
 public class Arrow : MonoBehaviour
 {

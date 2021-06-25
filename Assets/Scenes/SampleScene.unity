@@ -431,7 +431,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0.24, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -476,7 +476,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525198615}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0008b09b50ff7074980a61cf01d76440, type: 3}
   m_Name: 
@@ -681,8 +681,7 @@ MonoBehaviour:
   walk: {fileID: 11400000, guid: ac4c9ef91d4457842b486ca7413a557f, type: 2}
   jumping: {fileID: 11400000, guid: 1e3d224087f4a944180edfe65ef894dc, type: 2}
   attacking: {fileID: 11400000, guid: d4ceecc52e0221a43b4280286abcfe4c, type: 2}
-  aiming: {fileID: 11400000, guid: 45d5cd8e3b4e69a47ae513544483854c, type: 2}
-  aiming1: {fileID: 11400000, guid: ddec95d3bae8fae45be9f3b1db59415b, type: 2}
+  aiming: {fileID: 0}
   speed: 3
   jumpForce: 1
 --- !u!50 &1113427903
@@ -825,13 +824,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113427901}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.18, y: -3.29, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children:
   - {fileID: 1434994770}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1113427909
 MonoBehaviour:
@@ -877,7 +876,7 @@ Transform:
   m_LocalScale: {x: 1.5334042, y: 3.2861164, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1254895011
 GameObject:
@@ -1203,7 +1202,7 @@ Transform:
   m_Children:
   - {fileID: 525198616}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1555935325
 MonoBehaviour:
@@ -1212,7 +1211,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555935320}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c5a798c20838c849a36dbac60f242c3, type: 3}
   m_Name: 
