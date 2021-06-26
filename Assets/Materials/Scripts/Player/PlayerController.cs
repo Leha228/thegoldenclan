@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     private bool aimBool = false;
     private CameraController cameraController;
     public Camera cam;
+    private int[] level = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
 
 
@@ -41,9 +42,10 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.collider.name != "1") return;
-
-        cameraController.nextLevel(Convert.ToInt32(other.collider.name) + 1);
+        int indexLevel;
+        bool res = int.TryParse(other.collider.name, out indexLevel);
+        if (res == false || indexLevel == -1) return;
+        cameraController.nextLevel(indexLevel + 1);
     }
 
     private void run()
