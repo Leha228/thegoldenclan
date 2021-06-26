@@ -17,12 +17,12 @@ public class CameraController : MonoBehaviour
         rightLimit = GameObject.Find("rightLimit" + Convert.ToString(1)).transform.position.x;
     }
 
-    public void nextLevel() {
+    public void nextLevel(int numberLevel) {
         Debug.Log("Mission complete");
         moveCameraBoll = true;
 
-        leftLimit = GameObject.Find("leftLimit" + Convert.ToString(2)).transform.position.x;
-        rightLimit = GameObject.Find("rightLimit" + Convert.ToString(2)).transform.position.x;
+        leftLimit = GameObject.Find("leftLimit" + Convert.ToString(numberLevel)).transform.position.x;
+        rightLimit = GameObject.Find("rightLimit" + Convert.ToString(numberLevel)).transform.position.x;
     }
 
     private void moveCamera() {

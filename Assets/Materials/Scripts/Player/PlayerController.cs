@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Spine.Unity;
 using Spine;
@@ -40,9 +41,9 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.collider.name != "finish") return;
-        
-        cameraController.nextLevel();
+        if (other.collider.name != "1") return;
+
+        cameraController.nextLevel(Convert.ToInt32(other.collider.name) + 1);
     }
 
     private void run()
