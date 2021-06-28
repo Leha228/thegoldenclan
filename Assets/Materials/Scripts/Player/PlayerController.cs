@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     private bool aimBool = false;
     private CameraController cameraController;
     public Camera cam;
-    private int[] level = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    private int[] level = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
 
 
@@ -57,34 +57,24 @@ public class PlayerController : MonoBehaviour
 
     private void run()
     {
-        if (Input.GetButton("Fire2"))
-        {
+        if (Input.GetButton("Fire2")) {
             aimBool = true;
             aim();
             if (Input.GetButtonDown("Fire1")) attack();
-        }
-        else
-        {
-            if (aimBool)
-            {
-                setCharacterState("idle");
-                aimBool = false;
-            }
+        } else {
+            if (aimBool) { setCharacterState("idle"); aimBool = false; }
         }
 
         move = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(move * speed, rb.velocity.y);
 
-        if (move != 0)
-        {
+        if (move != 0) {
             if (!currentState.Equals("jump") && !currentState.Equals("aim") && !currentState.Equals("aim1")) { setCharacterState("walk"); }
             if (move > 0)
                 transform.localScale = new Vector2(0.5f, 0.5f);
             else
                 transform.localScale = new Vector2(-0.5f, 0.5f);
-        }
-        else
-        {
+        } else {
             if (!currentState.Equals("jump") && !currentState.Equals("aim") && !currentState.Equals("aim1") && !currentState.Equals("attack_aim")) { setCharacterState("idle"); }
         }
 
@@ -122,7 +112,8 @@ public class PlayerController : MonoBehaviour
         currentAnimation = animation.name;
     }
 
-    public void addAnimation(AnimationReferenceAsset animation, bool loop) {
+    public void addAnimation(AnimationReferenceAsset animation, bool loop)
+    {
         TrackEntry animationEntry = skeletonAnimation.state.AddAnimation(1, animation, loop, 0);
         animationEntry.Complete += AnimationEntry_Complete;
     }

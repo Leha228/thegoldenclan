@@ -13,7 +13,7 @@ public class EnemyShoot : MonoBehaviour
     public Transform shootPoint;
 
     private float launchForce;
-    private bool movePlayer = true;
+    private bool shootToPlayer = true;
 
     void Start()
     {
@@ -37,9 +37,14 @@ public class EnemyShoot : MonoBehaviour
 
         launchForce = Vector2.Distance(bowPosition, playerPosition);
 
-        if (!movePlayer) return;
-        movePlayer = false;
-        Invoke(nameof(shoot), 3f);
+        if (!shootToPlayer) return;
+        shootToPlayer = false;
+        Invoke(nameof(shoot), random(3, 5));
+    }
+
+    private float random(int a, int b) {
+        System.Random rnd = new System.Random();
+        return rnd.Next(a, b);
     }
 
     private void shoot()
@@ -47,11 +52,19 @@ public class EnemyShoot : MonoBehaviour
         TrackEntry animationEntry = skeletonAnimation.state.SetAnimation(0, attacking, false);
         animationEntry.Complete += AnimationEntry_Complete;
 
+        shootToPlayer = true;
+
+        Invoke("shootArrow", 0.5f);
+    }
+
+    private void shootArrow() {
         Vector2 bowPosition = transform.position;
         Vector2 playerPosition = player.transform.position;
+
         var dir = playerPosition - bowPosition;
         var euler = transform.eulerAngles;
-        euler.z = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 30.0f; //random
+
+        euler.z = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - random(10, 30);
         transform.eulerAngles = euler;
 
         GameObject newArrow = Instantiate(arrow, shootPoint.position, transform.rotation);

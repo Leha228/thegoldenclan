@@ -33,8 +33,6 @@ public class Bow : MonoBehaviour
         Vector2 dir = mousePosition - bowPosition;
         transform.right = dir;
 
-        
-
         if (Input.GetButton("Fire2"))
         {
             if (Math.Round(Vector2.Distance(bowPosition, mousePosition)) >= 5 && Math.Round(Vector2.Distance(bowPosition, mousePosition)) <= 12)  launchForce = Vector2.Distance(bowPosition, mousePosition); 
