@@ -42,10 +42,17 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
+        if (other.collider.name == "plot") this.transform.parent = other.transform;
+
         int indexLevel;
         bool res = int.TryParse(other.collider.name, out indexLevel);
         if (res == false || indexLevel == -1) return;
         cameraController.nextLevel(indexLevel + 1);
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.collider.name == "plot") this.transform.parent = null;
     }
 
     private void run()

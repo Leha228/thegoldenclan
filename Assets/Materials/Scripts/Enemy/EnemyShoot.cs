@@ -1,8 +1,13 @@
 using System;
 using UnityEngine;
+using Spine.Unity;
+using Spine;
 
 public class EnemyShoot : MonoBehaviour
 {
+    public SkeletonAnimation skeletonAnimation;
+    public SkeletonData skeletonData;
+    public AnimationReferenceAsset idle, attacking;
     public GameObject arrow;
     public GameObject player;
     public Transform shootPoint;
@@ -39,6 +44,9 @@ public class EnemyShoot : MonoBehaviour
 
     private void shoot()
     {
+        TrackEntry animationEntry = skeletonAnimation.state.SetAnimation(0, attacking, false);
+        animationEntry.Complete += AnimationEntry_Complete;
+
         Vector2 bowPosition = transform.position;
         Vector2 playerPosition = player.transform.position;
         var dir = playerPosition - bowPosition;
@@ -48,6 +56,11 @@ public class EnemyShoot : MonoBehaviour
 
         GameObject newArrow = Instantiate(arrow, shootPoint.position, transform.rotation);
         newArrow.GetComponent<Rigidbody2D>().velocity = transform.right * launchForce;
+    }
+
+    private void AnimationEntry_Complete(Spine.TrackEntry trackEntry)
+    {
+        skeletonAnimation.state.SetAnimation(0, idle, true);
     }
 
 }

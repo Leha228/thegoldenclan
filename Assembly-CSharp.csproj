@@ -45,6 +45,7 @@
      <Compile Include="Assets\Materials\Scripts\CameraController.cs" />
      <Compile Include="Assets\Materials\Scripts\Enemy\EnemyShoot.cs" />
      <Compile Include="Assets\Materials\Scripts\Player\Bow.cs" />
+     <Compile Include="Assets\Materials\Map\England\PlotTransform.cs" />
      <None Include="Assets\Materials\Animate\robin\robin_hood.atlas.txt" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\Materials\Animate\enemy\monk\monk2.atlas.txt" />

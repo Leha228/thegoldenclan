@@ -1,9 +1,10 @@
 
 using UnityEngine;
+using Spine.Unity;
+using Spine;
 
 public class Enemy : MonoBehaviour
 {
-
     public float speed;
     public int lenghtOfPatrol;
     public Transform pointEnemy;
@@ -22,7 +23,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         //if (Vector2.Distance(transform.position, pointEnemy.position) < lenghtOfPatrol)
-            chill();
+            //chill();
     }
 
     private void chill()
