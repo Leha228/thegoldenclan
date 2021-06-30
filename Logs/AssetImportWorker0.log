@@ -15,11 +15,11 @@ C:/Users/root/Documents/thegoldenclan
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62128
+54664
 Successfully changed project path to: C:/Users/root/Documents/thegoldenclan
 C:/Users/root/Documents/thegoldenclan
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 82.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,713 +35,315 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007121 seconds.
+Registered in 0.003279 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 142.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.828 seconds
+- Completed reload, in  3.219 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.037493 seconds.
+Registered in 0.010193 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 201.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 77.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.430 seconds
+- Completed reload, in  1.903 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2343 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 107.9 MB.
 System memory in use after: 107.0 MB.
 
 Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2770.
-Total: 7.228100 ms (FindLiveObjects: 0.630100 ms CreateObjectMapping: 0.150800 ms MarkObjects: 4.627200 ms  DeleteObjects: 1.817900 ms)
+Total: 5.529000 ms (FindLiveObjects: 0.491300 ms CreateObjectMapping: 0.145000 ms MarkObjects: 3.141000 ms  DeleteObjects: 1.750100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cbe7fd68252dc4974d7ce3871a7cf5') in 0.079020 seconds
-  Import took 0.086819 seconds .
+  path: Assets/Materials/Scripts/CameraController.cs
+  artifactKey: Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scripts/CameraController.cs using Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a8a3210259d3122404aa4c52c63312') in 0.066609 seconds
+  Import took 0.072252 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007737 seconds.
+Registered in 0.009146 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.735 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.664 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.1 MB.
-System memory in use after: 104.3 MB.
+System memory in use before: 105.2 MB.
+System memory in use after: 104.2 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2774.
-Total: 4.597600 ms (FindLiveObjects: 0.424000 ms CreateObjectMapping: 0.125500 ms MarkObjects: 2.653200 ms  DeleteObjects: 1.393400 ms)
+Total: 4.719700 ms (FindLiveObjects: 0.427800 ms CreateObjectMapping: 0.141500 ms MarkObjects: 2.668900 ms  DeleteObjects: 1.479900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 546.532535 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2314711e2324f828cc6cd056ef6348') in 0.007209 seconds
-  Import took 0.012247 seconds .
+  Time since last request: 16.270896 seconds.
+  path: Assets/Materials/Scripts/CameraController.cs
+  artifactKey: Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scripts/CameraController.cs using Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712c903ff62b54022e430ddb1012b34a') in 0.007941 seconds
+  Import took 0.013919 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.114675 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2314711e2324f828cc6cd056ef6348') in 0.004222 seconds
-  Import took 0.009850 seconds .
+  Time since last request: 0.130365 seconds.
+  path: Assets/Materials/Scripts/CameraController.cs
+  artifactKey: Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scripts/CameraController.cs using Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712c903ff62b54022e430ddb1012b34a') in 0.004082 seconds
+  Import took 0.009964 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006968 seconds.
+Registered in 0.009352 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.763 seconds
+- Completed reload, in  1.669 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.1 MB.
+System memory in use before: 105.0 MB.
 System memory in use after: 104.2 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2778.
-Total: 7.004300 ms (FindLiveObjects: 0.739900 ms CreateObjectMapping: 0.234000 ms MarkObjects: 4.024900 ms  DeleteObjects: 1.985100 ms)
+Total: 4.779900 ms (FindLiveObjects: 0.515000 ms CreateObjectMapping: 0.130300 ms MarkObjects: 2.747200 ms  DeleteObjects: 1.385600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 37.332854 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddcd44acecbbc19cd13c9fd27171d70') in 0.018676 seconds
-  Import took 0.026519 seconds .
+  Time since last request: 167.078791 seconds.
+  path: Assets/Materials/Scripts/CameraController.cs
+  artifactKey: Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scripts/CameraController.cs using Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606ccca4d556906560862f468383f582') in 0.016249 seconds
+  Import took 0.023605 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.131687 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddcd44acecbbc19cd13c9fd27171d70') in 0.004592 seconds
-  Import took 0.010934 seconds .
+  Time since last request: 0.116846 seconds.
+  path: Assets/Materials/Scripts/CameraController.cs
+  artifactKey: Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scripts/CameraController.cs using Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606ccca4d556906560862f468383f582') in 0.006196 seconds
+  Import took 0.011826 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008427 seconds.
+Registered in 0.133757 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.680 seconds
+- Completed reload, in  1.693 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 105.1 MB.
 System memory in use after: 104.3 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2782.
-Total: 4.664500 ms (FindLiveObjects: 0.437200 ms CreateObjectMapping: 0.124100 ms MarkObjects: 2.602800 ms  DeleteObjects: 1.499000 ms)
+Total: 4.545400 ms (FindLiveObjects: 0.478700 ms CreateObjectMapping: 0.124300 ms MarkObjects: 2.500400 ms  DeleteObjects: 1.440400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Import Request.
-  Time since last request: 76.718228 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab78d99cc822670328effdacd3e34862') in 0.008102 seconds
-  Import took 0.013845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.113500 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab78d99cc822670328effdacd3e34862') in 0.004424 seconds
-  Import took 0.010139 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011207 seconds.
+Registered in 0.008374 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.694 seconds
+- Completed reload, in  1.910 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 105.2 MB.
 System memory in use after: 104.3 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2786.
-Total: 5.188400 ms (FindLiveObjects: 0.443200 ms CreateObjectMapping: 0.131400 ms MarkObjects: 3.109400 ms  DeleteObjects: 1.502700 ms)
+Total: 6.290800 ms (FindLiveObjects: 0.501200 ms CreateObjectMapping: 0.134600 ms MarkObjects: 3.265900 ms  DeleteObjects: 2.386700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 223.106827 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f406b86417e44d920ae2cf0cc9cf178') in 0.007492 seconds
-  Import took 0.012674 seconds .
+  Time since last request: 799.945235 seconds.
+  path: Assets/Materials/Scripts/CameraController.cs
+  artifactKey: Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scripts/CameraController.cs using Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbf19cef3cc2db8018178fcb6cf71bc') in 0.014084 seconds
+  Import took 0.020101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.118882 seconds.
+  path: Assets/Materials/Scripts/CameraController.cs
+  artifactKey: Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scripts/CameraController.cs using Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbf19cef3cc2db8018178fcb6cf71bc') in 0.004508 seconds
+  Import took 0.010037 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008337 seconds.
+Registered in 0.008679 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.760 seconds
+- Completed reload, in  2.208 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 105.1 MB.
 System memory in use after: 104.2 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2790.
-Total: 4.718300 ms (FindLiveObjects: 0.465300 ms CreateObjectMapping: 0.137000 ms MarkObjects: 2.577200 ms  DeleteObjects: 1.537300 ms)
+Total: 7.172900 ms (FindLiveObjects: 0.699400 ms CreateObjectMapping: 0.310200 ms MarkObjects: 4.117600 ms  DeleteObjects: 2.043900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Import Request.
-  Time since last request: 237.844933 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2797cb547bf039229840c296988368d') in 0.008477 seconds
-  Import took 0.014617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.116335 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2797cb547bf039229840c296988368d') in 0.003972 seconds
-  Import took 0.009717 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007099 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.804 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.2 MB.
-System memory in use after: 104.3 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2794.
-Total: 5.142800 ms (FindLiveObjects: 0.408300 ms CreateObjectMapping: 0.126300 ms MarkObjects: 3.034300 ms  DeleteObjects: 1.572400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 50.723006 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea0e74acf813ae7983572b709d62fee') in 0.007199 seconds
-  Import took 0.013431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.118247 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea0e74acf813ae7983572b709d62fee') in 0.005274 seconds
-  Import took 0.012029 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015105 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.862 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.2 MB.
-System memory in use after: 104.3 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2798.
-Total: 4.855700 ms (FindLiveObjects: 0.459600 ms CreateObjectMapping: 0.141200 ms MarkObjects: 2.575300 ms  DeleteObjects: 1.677600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 67.595725 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d05c9bd3adb957bed24cf400a188a3') in 0.008046 seconds
-  Import took 0.013739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.128289 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d05c9bd3adb957bed24cf400a188a3') in 0.006036 seconds
-  Import took 0.013622 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007208 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.785 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.2 MB.
-System memory in use after: 104.4 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2802.
-Total: 4.673300 ms (FindLiveObjects: 0.455100 ms CreateObjectMapping: 0.155200 ms MarkObjects: 2.531800 ms  DeleteObjects: 1.529400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 58.695709 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cadac37774d8c741c128af5add6ddf') in 0.009075 seconds
-  Import took 0.015495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.118217 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cadac37774d8c741c128af5add6ddf') in 0.004053 seconds
-  Import took 0.010214 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008083 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.776 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.2 MB.
-System memory in use after: 104.3 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2806.
-Total: 7.036900 ms (FindLiveObjects: 0.701000 ms CreateObjectMapping: 0.154700 ms MarkObjects: 4.178200 ms  DeleteObjects: 2.001300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 19.970983 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c7a458f8e3fde05011198fa421d1a2') in 0.012769 seconds
-  Import took 0.022262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.121373 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c7a458f8e3fde05011198fa421d1a2') in 0.003624 seconds
-  Import took 0.009059 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007882 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.819 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.1 MB.
-System memory in use after: 104.3 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2810.
-Total: 7.709300 ms (FindLiveObjects: 0.917800 ms CreateObjectMapping: 0.172000 ms MarkObjects: 4.011700 ms  DeleteObjects: 2.605600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 30.713906 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bbe86f36e37651b1053ef8d894d4fd') in 0.008275 seconds
-  Import took 0.013794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.128261 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bbe86f36e37651b1053ef8d894d4fd') in 0.004507 seconds
-  Import took 0.010754 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007461 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.783 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.3 MB.
-System memory in use after: 104.4 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2814.
-Total: 4.728600 ms (FindLiveObjects: 0.428300 ms CreateObjectMapping: 0.131400 ms MarkObjects: 2.599400 ms  DeleteObjects: 1.567700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 41.282460 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4c200da8ecce82d83c62fed665be27') in 0.009140 seconds
-  Import took 0.016065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.124339 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4c200da8ecce82d83c62fed665be27') in 0.004227 seconds
-  Import took 0.010297 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007251 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.818 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.3 MB.
-System memory in use after: 104.4 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2818.
-Total: 5.129700 ms (FindLiveObjects: 0.424800 ms CreateObjectMapping: 0.170900 ms MarkObjects: 2.928100 ms  DeleteObjects: 1.604400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 135.419268 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef9b548103597201cbaa24cc127a75a') in 0.009653 seconds
-  Import took 0.015647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.132911 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef9b548103597201cbaa24cc127a75a') in 0.004886 seconds
-  Import took 0.011344 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007312 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.842 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.2 MB.
-System memory in use after: 104.4 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2822.
-Total: 4.928300 ms (FindLiveObjects: 0.434900 ms CreateObjectMapping: 0.131100 ms MarkObjects: 2.765100 ms  DeleteObjects: 1.595700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 221.221299 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d656373cc21c2f01ad8201cfbb801ab') in 0.007643 seconds
-  Import took 0.013333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.119359 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d656373cc21c2f01ad8201cfbb801ab') in 0.013257 seconds
-  Import took 0.020371 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008610 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.814 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.2 MB.
-System memory in use after: 104.4 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2826.
-Total: 5.095800 ms (FindLiveObjects: 0.479500 ms CreateObjectMapping: 0.137100 ms MarkObjects: 2.974200 ms  DeleteObjects: 1.502700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 181.678782 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085e6a751756379b75fcda9aca9660c4') in 0.008322 seconds
-  Import took 0.014131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.117212 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085e6a751756379b75fcda9aca9660c4') in 0.003596 seconds
-  Import took 0.008831 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010754 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.807 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.1 MB.
-System memory in use after: 104.3 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2830.
-Total: 5.889100 ms (FindLiveObjects: 0.425300 ms CreateObjectMapping: 0.127500 ms MarkObjects: 3.797700 ms  DeleteObjects: 1.537100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 78.670337 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8630035f91669378bf6cf338fbcc04f8') in 0.014008 seconds
-  Import took 0.019549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.121438 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8630035f91669378bf6cf338fbcc04f8') in 0.004307 seconds
-  Import took 0.009950 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007014 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.889 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.2 MB.
-System memory in use after: 104.4 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2834.
-Total: 4.904600 ms (FindLiveObjects: 0.425400 ms CreateObjectMapping: 0.127200 ms MarkObjects: 2.808200 ms  DeleteObjects: 1.542400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 389.672806 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fa74361c2bb85b53f42244f468e69c') in 0.007078 seconds
-  Import took 0.012030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.133544 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fa74361c2bb85b53f42244f468e69c') in 0.016055 seconds
-  Import took 0.024241 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010158 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.942 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.3 MB.
-System memory in use after: 104.5 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2838.
-Total: 4.641800 ms (FindLiveObjects: 0.422600 ms CreateObjectMapping: 0.130900 ms MarkObjects: 2.557700 ms  DeleteObjects: 1.529200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 229.740563 seconds.
-  path: Assets/Materials/Scripts/Enemy/EnemyShoot.cs
-  artifactKey: Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Scripts/Enemy/EnemyShoot.cs using Guid(0008b09b50ff7074980a61cf01d76440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7df577cef49760c0277d67f152ced9') in 0.007770 seconds
-  Import took 0.012448 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006969 seconds.
+Registered in 0.006973 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.163 seconds
+- Completed reload, in  1.727 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.1 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2794.
+Total: 4.600400 ms (FindLiveObjects: 0.440600 ms CreateObjectMapping: 0.124100 ms MarkObjects: 2.515600 ms  DeleteObjects: 1.518300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 51.010534 seconds.
+  path: Assets/Materials/Scripts/CameraController.cs
+  artifactKey: Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scripts/CameraController.cs using Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78dc29cc8328be59a7f2f0d4397e739') in 0.007235 seconds
+  Import took 0.012260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.118666 seconds.
+  path: Assets/Materials/Scripts/CameraController.cs
+  artifactKey: Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scripts/CameraController.cs using Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78dc29cc8328be59a7f2f0d4397e739') in 0.004194 seconds
+  Import took 0.010800 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007779 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.769 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.2 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2798.
+Total: 4.651000 ms (FindLiveObjects: 0.428900 ms CreateObjectMapping: 0.125300 ms MarkObjects: 2.573800 ms  DeleteObjects: 1.521500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 335.619227 seconds.
+  path: Assets/Materials/Scripts/CameraController.cs
+  artifactKey: Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scripts/CameraController.cs using Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4398a64580828b25a1f02854d47d5cf') in 0.008310 seconds
+  Import took 0.013458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127381 seconds.
+  path: Assets/Materials/Scripts/CameraController.cs
+  artifactKey: Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scripts/CameraController.cs using Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4398a64580828b25a1f02854d47d5cf') in 0.009329 seconds
+  Import took 0.015703 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007073 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.786 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.3 MB.
-System memory in use after: 104.4 MB.
+System memory in use before: 105.1 MB.
+System memory in use after: 104.3 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2842.
-Total: 4.813300 ms (FindLiveObjects: 0.450900 ms CreateObjectMapping: 0.126100 ms MarkObjects: 2.423500 ms  DeleteObjects: 1.811300 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2802.
+Total: 4.913200 ms (FindLiveObjects: 0.502600 ms CreateObjectMapping: 0.126200 ms MarkObjects: 2.678300 ms  DeleteObjects: 1.604400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 79.483766 seconds.
+  path: Assets/Materials/Scripts/CameraController.cs
+  artifactKey: Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scripts/CameraController.cs using Guid(266c9a83ef9d1cb48ab80e5f9d10d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7439de2ff53f8595cdf7444102c0c8bc') in 0.007627 seconds
+  Import took 0.012417 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

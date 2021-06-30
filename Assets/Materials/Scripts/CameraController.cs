@@ -1,20 +1,50 @@
 
+using System.Collections;
 using System;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Transform player;
+    public static CameraController singleton { get; private set; }
+    public Transform player, enemy;
     private Vector3 pos, posCam;
-
-    private float leftLimit, rightLimit;
+    private float leftLimit, rightLimit, startPlayerX, startPlayerY;
     public float topLimit, bottomLimit;
     private bool moveCameraBoll = false;
+    private bool coroutine = false;
+
+    private void Awake() {
+        singleton = this;
+    }
 
     void Start()
     {
         leftLimit = GameObject.Find("leftLimit" + Convert.ToString(1)).transform.position.x;
         rightLimit = GameObject.Find("rightLimit" + Convert.ToString(1)).transform.position.x;
+        startPlayerX = GameObject.Find(Convert.ToString(0)).transform.position.x;
+        startPlayerY = GameObject.Find(Convert.ToString(0)).transform.position.y;
+
+        player.position = new Vector3(startPlayerX, startPlayerY + 1.5f, 0f);
+        transform.position = new Vector3(leftLimit, transform.position.y, transform.position.z);
+
+        StartCoroutine(timer(5));
+    }
+
+    IEnumerator timer(float timeSecond) {
+        float counter = 0f;
+        coroutine = true;
+
+        while (counter < timeSecond) {
+            counter += Time.deltaTime;
+            yield return null;
+        }
+
+        PlayerController.singleton.enabled = !PlayerController.singleton.enabled;
+        EnemyShoot.singleton.enabled = !EnemyShoot.singleton.enabled;
+
+        if (EnemyShoot.singleton.enabled) EnemyShoot.singleton.shootToPlayer = true;
+
+        coroutine = false;
     }
 
     public void nextLevel(int numberLevel) {
@@ -33,6 +63,7 @@ public class CameraController : MonoBehaviour
 
     void Update()
     {
+        if (!coroutine) StartCoroutine(timer(5)); 
         if (moveCameraBoll) moveCamera();
         else {
             move();

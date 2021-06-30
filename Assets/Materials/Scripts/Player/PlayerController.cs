@@ -5,7 +5,7 @@ using Spine;
 
 public class PlayerController : MonoBehaviour
 {
-
+    public static PlayerController singleton { get; private set;}
     public SkeletonAnimation skeletonAnimation;
     public SkeletonData skeletonData;
     public AnimationReferenceAsset idle, walk, jumping, attacking, aiming;
@@ -19,11 +19,12 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool aimBool = false;
-    private CameraController cameraController;
     public Camera cam;
     private int[] level = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-
+    private void Awake() {
+        singleton = this;
+    }
 
     void Start()
     {
@@ -31,8 +32,6 @@ public class PlayerController : MonoBehaviour
         currentState = "idle";
 
         setCharacterState(currentState);
-
-        cameraController = cam.GetComponent<CameraController>();
     }
 
     void Update()
@@ -47,7 +46,7 @@ public class PlayerController : MonoBehaviour
         int indexLevel;
         bool res = int.TryParse(other.collider.name, out indexLevel);
         if (res == false || indexLevel == -1) return;
-        cameraController.nextLevel(indexLevel + 1);
+        CameraController.singleton.nextLevel(indexLevel + 1);
     }
 
     void OnCollisionExit2D(Collision2D other)

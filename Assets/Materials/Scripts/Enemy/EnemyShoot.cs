@@ -5,6 +5,7 @@ using Spine;
 
 public class EnemyShoot : MonoBehaviour
 {
+    public static EnemyShoot singleton {get; private set;}
     public SkeletonAnimation skeletonAnimation;
     public SkeletonData skeletonData;
     public AnimationReferenceAsset idle, attacking;
@@ -13,10 +14,13 @@ public class EnemyShoot : MonoBehaviour
     public Transform shootPoint;
 
     private float launchForce;
-    private bool shootToPlayer = true;
+    public bool shootToPlayer = true;
 
-    void Start()
-    {
+    private void Awake() {
+        singleton = this;
+    }
+
+    void Start() {
  
     }
 
@@ -39,7 +43,7 @@ public class EnemyShoot : MonoBehaviour
 
         if (!shootToPlayer) return;
         shootToPlayer = false;
-        Invoke(nameof(shoot), random(3, 5));
+        Invoke(nameof(shoot), random(2, 4));
     }
 
     private float random(int a, int b) {
@@ -51,8 +55,6 @@ public class EnemyShoot : MonoBehaviour
     {
         TrackEntry animationEntry = skeletonAnimation.state.SetAnimation(0, attacking, false);
         animationEntry.Complete += AnimationEntry_Complete;
-
-        shootToPlayer = true;
 
         Invoke("shootArrow", 0.5f);
     }
