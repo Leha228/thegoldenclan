@@ -1,0 +1,43 @@
+
+using UnityEngine;
+using Spine.Unity;
+using Spine;
+
+public class Bird : MonoBehaviour
+{
+    public SkeletonAnimation skeletonAnimation;
+    public SkeletonData skeletonData;
+    public AnimationReferenceAsset idle, attacking;
+
+    public float speed = 5;
+    public float positionY;
+    private float destroyPoint;
+    private bool shootBool = true;
+
+    public Transform rockPoint;
+    public GameObject rock;
+
+    private void Start() {
+        positionY = transform.position.y + 5f;
+        destroyPoint = GameObject.Find("destroyBird").transform.position.x;
+    }
+
+    void Update() {
+        if (Mathf.Round(transform.position.x) == Mathf.Round(destroyPoint)) Destroy(this.gameObject);
+        if (Mathf.Round(transform.position.x) == Mathf.Round(PlayerController.singleton.transform.position.x) && shootBool) shoot();
+        transform.position = new Vector2(transform.position.x - speed * Time.deltaTime, positionY);      
+    }
+
+    private void shoot() {
+        TrackEntry animationEntry = skeletonAnimation.state.SetAnimation(0, attacking, false);
+        animationEntry.Complete += AnimationEntry_Complete;
+
+        Instantiate(rock, rockPoint.position, rockPoint.rotation);
+        shootBool = false;
+    }
+
+    private void AnimationEntry_Complete(Spine.TrackEntry trackEntry)
+    {
+        skeletonAnimation.state.SetAnimation(0, idle, true);
+    }
+}

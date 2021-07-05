@@ -36,19 +36,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Materials\Scripts\Bird.cs" />
      <Compile Include="Assets\Materials\Scripts\Player\Player.cs" />
      <Compile Include="Assets\Materials\Scripts\Enemy\Enemy.cs" />
      <Compile Include="Assets\Materials\Scripts\Player\PlayerController.cs" />
      <Compile Include="Assets\Materials\Scripts\Player\Hero.cs" />
      <Compile Include="Assets\Materials\Map\England\TransformSky.cs" />
+     <Compile Include="Assets\Materials\Map\England\PlotTransform.cs" />
      <Compile Include="Assets\Materials\Scripts\Player\Arrow.cs" />
      <Compile Include="Assets\Materials\Scripts\CameraController.cs" />
      <Compile Include="Assets\Materials\Scripts\Enemy\EnemyShoot.cs" />
      <Compile Include="Assets\Materials\Scripts\Player\Bow.cs" />
-     <Compile Include="Assets\Materials\Map\England\PlotTransform.cs" />
+     <Compile Include="Assets\Materials\Scripts\ManagerEvent.cs" />
+     <Compile Include="Assets\Materials\Scripts\rock.cs" />
      <None Include="Assets\Materials\Animate\robin\robin_hood.atlas.txt" />
      <None Include="Assets\Spine\version.txt" />
+     <None Include="Assets\Materials\Animate\bird\bird.atlas.txt" />
      <None Include="Assets\Materials\Animate\enemy\monk\monk2.atlas.txt" />
+     <None Include="Assets\Materials\Animate\rock_bird\bullet_rock.atlas.txt" />
      <None Include="Assets\Materials\Animate\enemy\monk\monk1.atlas.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

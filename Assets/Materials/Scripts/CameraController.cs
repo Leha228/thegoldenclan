@@ -12,6 +12,7 @@ public class CameraController : MonoBehaviour
     public float topLimit, bottomLimit;
     private bool moveCameraBoll = false;
     private bool coroutine = false;
+    public int level = 1;
 
     private void Awake() {
         singleton = this;
@@ -48,7 +49,7 @@ public class CameraController : MonoBehaviour
     }
 
     public void nextLevel(int numberLevel) {
-        Debug.Log("Mission complete");
+        level = numberLevel;
         moveCameraBoll = true;
 
         leftLimit = GameObject.Find("leftLimit" + Convert.ToString(numberLevel)).transform.position.x;

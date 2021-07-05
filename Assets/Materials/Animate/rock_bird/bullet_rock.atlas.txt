@@ -1,0 +1,55 @@
+
+bullet_rock.png
+size: 733,410
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rock
+  rotate: false
+  xy: 2, 15
+  size: 453, 393
+  orig: 512, 512
+  offset: 19, 51
+  index: -1
+splash0001
+  rotate: false
+  xy: 457, 7
+  size: 115, 114
+  orig: 138, 144
+  offset: 14, 11
+  index: -1
+splash0002
+  rotate: true
+  xy: 594, 139
+  size: 127, 137
+  orig: 138, 144
+  offset: 6, 6
+  index: -1
+splash0003
+  rotate: false
+  xy: 457, 123
+  size: 132, 141
+  orig: 138, 144
+  offset: 4, 3
+  index: -1
+splash0004
+  rotate: true
+  xy: 591, 2
+  size: 135, 136
+  orig: 138, 144
+  offset: 2, 3
+  index: -1
+splash0005
+  rotate: false
+  xy: 594, 268
+  size: 137, 140
+  orig: 138, 144
+  offset: 1, 1
+  index: -1
+splash0006
+  rotate: false
+  xy: 457, 266
+  size: 135, 142
+  orig: 138, 144
+  offset: 0, 0
+  index: -1
