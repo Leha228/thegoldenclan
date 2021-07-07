@@ -28,10 +28,10 @@ public class CameraController : MonoBehaviour
         player.position = new Vector3(startPlayerX, startPlayerY + 1.5f, 0f);
         transform.position = new Vector3(leftLimit, transform.position.y, transform.position.z);
 
-        StartCoroutine(timer(5));
+        StartCoroutine(Timer(5));
     }
 
-    IEnumerator timer(float timeSecond) {
+    IEnumerator Timer(float timeSecond) {
         float counter = 0f;
         coroutine = true;
 
@@ -48,7 +48,7 @@ public class CameraController : MonoBehaviour
         coroutine = false;
     }
 
-    public void nextLevel(int numberLevel) {
+    public void NextLevel(int numberLevel) {
         level = numberLevel;
         moveCameraBoll = true;
 
@@ -56,7 +56,7 @@ public class CameraController : MonoBehaviour
         rightLimit = GameObject.Find("rightLimit" + Convert.ToString(numberLevel)).transform.position.x;
     }
 
-    private void moveCamera() {
+    private void MoveCamera() {
         if (Math.Round(leftLimit) == Math.Round(transform.position.x)) moveCameraBoll = false;
         posCam = new Vector3(leftLimit, transform.position.y, transform.position.z);
         transform.position = Vector3.Lerp(transform.position, posCam, Time.deltaTime);
@@ -64,10 +64,10 @@ public class CameraController : MonoBehaviour
 
     void Update()
     {
-        if (!coroutine) StartCoroutine(timer(5)); 
-        if (moveCameraBoll) moveCamera();
+        if (!coroutine) StartCoroutine(Timer(5)); 
+        if (moveCameraBoll) MoveCamera();
         else {
-            move();
+            Move();
             transform.position = new Vector3(
                 Mathf.Clamp(transform.position.x, leftLimit, rightLimit), 
                 Mathf.Clamp(transform.position.y, bottomLimit, topLimit),
@@ -76,7 +76,7 @@ public class CameraController : MonoBehaviour
         }
     }
 
-    private void move() {
+    private void Move() {
         pos = player.position;
         pos.z = -10f;
 

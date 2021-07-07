@@ -1,59 +1,46 @@
 
 using UnityEngine;
-using Spine.Unity;
-using Spine;
+
 
 public class Enemy : MonoBehaviour
 {
     public float speed;
-    public int lenghtOfPatrol;
+    public int lenOfPatrol;
     public Transform pointEnemy;
-    private bool move;
+    private bool _move;
 
     public int lives = 50;
-    public GameObject arrow;
-    int damage;
 
     void Start()
     {
-        damage = arrow.GetComponent<Arrow>().damage;
+
     }
 
     
     void Update()
     {
         //if (Vector2.Distance(transform.position, pointEnemy.position) < lenghtOfPatrol)
-            //chill();
+            //Chill();
     }
 
-    private void chill()
+    private void Chill()
     {
-        if (transform.position.x > pointEnemy.position.x + lenghtOfPatrol)
-            move = false;
-        else if (transform.position.x < pointEnemy.position.x - lenghtOfPatrol)
-            move = true;
+        if (transform.position.x > pointEnemy.position.x + lenOfPatrol)
+            _move = false;
+        else if (transform.position.x < pointEnemy.position.x - lenOfPatrol)
+            _move = true;
 
-        if (move)
+        if (_move)
             transform.position = new Vector2(transform.position.x + speed * Time.deltaTime, transform.position.y);
         else
             transform.position = new Vector2(transform.position.x - speed * Time.deltaTime, transform.position.y);
-    }
-
-    private void angry()
-    {
-
-    }
-
-    private void goBack()
-    {
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.name != "arrow(Clone)") return;
        
-        lives -= damage;
+        lives -= Arrow.singleton.damage;
         Debug.Log(lives);
     }
 }

@@ -37,10 +37,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Materials\Scripts\Bird.cs" />
-     <Compile Include="Assets\Materials\Scripts\Player\Player.cs" />
      <Compile Include="Assets\Materials\Scripts\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Materials\Scripts\Rock.cs" />
      <Compile Include="Assets\Materials\Scripts\Player\PlayerController.cs" />
-     <Compile Include="Assets\Materials\Scripts\Player\Hero.cs" />
      <Compile Include="Assets\Materials\Map\England\TransformSky.cs" />
      <Compile Include="Assets\Materials\Map\England\PlotTransform.cs" />
      <Compile Include="Assets\Materials\Scripts\Player\Arrow.cs" />
@@ -48,7 +47,6 @@
      <Compile Include="Assets\Materials\Scripts\Enemy\EnemyShoot.cs" />
      <Compile Include="Assets\Materials\Scripts\Player\Bow.cs" />
      <Compile Include="Assets\Materials\Scripts\ManagerEvent.cs" />
-     <Compile Include="Assets\Materials\Scripts\rock.cs" />
      <None Include="Assets\Materials\Animate\robin\robin_hood.atlas.txt" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\Materials\Animate\bird\bird.atlas.txt" />

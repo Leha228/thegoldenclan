@@ -11,22 +11,20 @@ public class Bow : MonoBehaviour
     GameObject[] points;
     public int numberOfPoints = 5;
     public float spaceBetweenPoint;
-    private bool createPoints = false;
+    private bool _createPoints = false;
 
     void Start()
     {
         points = new GameObject[numberOfPoints];
-        createPoints = true;
+        _createPoints = true;
     }
 
-    [Obsolete]
     void Update()
     {
-        move();
+        Move();
     }
 
-    [Obsolete]
-    private void move()
+    private void Move()
     {
         Vector2 bowPosition = transform.position;
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -35,48 +33,49 @@ public class Bow : MonoBehaviour
 
         if (Input.GetButton("Fire2"))
         {
-            if (Math.Round(Vector2.Distance(bowPosition, mousePosition)) >= 5 && Math.Round(Vector2.Distance(bowPosition, mousePosition)) <= 12)  launchForce = Vector2.Distance(bowPosition, mousePosition); 
+            if (Math.Round(Vector2.Distance(bowPosition, mousePosition)) >= 5 && Math.Round(Vector2.Distance(bowPosition, mousePosition)) <= 12)  
+                launchForce = Vector2.Distance(bowPosition, mousePosition); 
             
-            if (createPoints)
+            if (_createPoints)
             {
                 for (int i = 0; i < numberOfPoints; i++)
                 {
                     points[i] = Instantiate(point, shootPoint.position, Quaternion.identity);
                 }
-                createPoints = false;
+                _createPoints = false;
             }
 
             for (int i = 0; i < numberOfPoints; i++)
             {
-                points[i].active = true;
-                points[i].transform.position = pointPosition(i * spaceBetweenPoint);
+                points[i].SetActive(true);
+                points[i].transform.position = PointPosition(i * spaceBetweenPoint);
             }
 
             if (Input.GetButtonDown("Fire1"))
             {
                 //Invoke(nameof(shoot), 0.5f);
-                shoot();
+                Shoot();
             }
         } 
         else
         {
-            if (!createPoints)
+            if (!_createPoints)
             {
                 for (int i = 0; i < numberOfPoints; i++)
                 {
-                    points[i].active = false;
+                    points[i].SetActive(false);
                 }
             }
         }
     }
 
-    private void shoot()
+    private void Shoot()
     {
         GameObject newArrow = Instantiate(arrow, shootPoint.position, shootPoint.rotation);
         newArrow.GetComponent<Rigidbody2D>().velocity = transform.right * launchForce;
     }
 
-    Vector2 pointPosition(float t)
+    Vector2 PointPosition(float t)
     {
         Vector2 position = (Vector2)shootPoint.position +
             (Vector2)(transform.right * launchForce * t) + (Physics2D.gravity * (t * t) * 0.5f);

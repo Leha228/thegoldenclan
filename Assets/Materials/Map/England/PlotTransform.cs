@@ -1,29 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class PlotTransform : MonoBehaviour
 {
     public float speed;
-    public int lenghtOfPatrol;
-    private float leftLimit, rightLimit;
-    private bool move;
+    public int lenOfPatrol;
+    private float _leftLimit, _rightLimit;
+    private bool _move;
 
     void Start()
     {
-        leftLimit = transform.position.x - lenghtOfPatrol;
-        rightLimit = transform.position.x + lenghtOfPatrol;
+        _leftLimit = transform.position.x - lenOfPatrol;
+        _rightLimit = transform.position.x + lenOfPatrol;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (transform.position.x > rightLimit)
-            move = false;
-        else if (transform.position.x < leftLimit)
-            move = true;
+        if (transform.position.x > _rightLimit)
+            _move = false;
+        else if (transform.position.x < _leftLimit)
+            _move = true;
 
-        if (move)
+        if (_move)
             transform.position = new Vector2(transform.position.x + speed * Time.deltaTime, transform.position.y);
         else
             transform.position = new Vector2(transform.position.x - speed * Time.deltaTime, transform.position.y);

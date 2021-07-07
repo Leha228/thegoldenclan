@@ -3,33 +3,29 @@ using UnityEngine;
 
 public class Arrow : MonoBehaviour
 {
+    public static Arrow singleton { get; private set; }
 
     Rigidbody2D rb;
-    private bool hasHit;
-    GameObject enemy;
-
+    private bool _hasHit;
     public int damage = 10;
+
+    private void Awake() {
+        singleton = this;
+    }
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        enemy = GameObject.Find("Enemy");
-
-    }
-
-    void Update()
-    {
-
     }
 
     private void FixedUpdate()
     {
-        rotate();
+        Rotate();
     }
 
-    private void rotate()
+    private void Rotate()
     {
-        if (!hasHit)
+        if (!_hasHit)
         {
             var dir = rb.velocity;
             var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
@@ -41,7 +37,7 @@ public class Arrow : MonoBehaviour
     {
         if (collision.collider.name == "Player") return;
 
-        hasHit = true;
+        _hasHit = true;
         rb.velocity = Vector2.zero;
         rb.isKinematic = true;
     }

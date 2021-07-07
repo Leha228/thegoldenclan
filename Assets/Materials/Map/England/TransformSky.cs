@@ -3,19 +3,14 @@ using UnityEngine;
 public class TransformSky : MonoBehaviour
 {
 
-    private bool reverse = false;
-    void Start()    
-    {
-        
-    }
+    private bool _reverse = false;
 
-    // Update is called once per frame
     void Update()
     {
-        if (Mathf.Round(transform.position.x) == Mathf.Round(Camera.main.transform.position.x)) reverse = true;
-        if (Mathf.Round(transform.position.x) == 1063f) reverse = false;
+        if (Mathf.Round(transform.position.x) == Mathf.Round(Camera.main.transform.position.x)) _reverse = true;
+        if (Mathf.Round(transform.position.x) == 1063f) _reverse = false;
 
-        if (!reverse)
+        if (!_reverse)
             transform.position = transform.position - Vector3.right * Time.deltaTime;
         else
             transform.position = transform.position - Vector3.left * Time.deltaTime;

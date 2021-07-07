@@ -5,41 +5,41 @@ using UnityEngine;
 public class ManagerEvent : MonoBehaviour
 {
     private GameObject leftLimitBird;
-    private int level;
-    private bool coroutine = false;
+    private int _level;
+    private bool _coroutine = false;
     public GameObject bird;
 
     private void Start() {
-        replaceLevel();
-        StartCoroutine(createBird(1f));
+        ReplaceLevel();
+        StartCoroutine(CreateBird(1f));
     }
 
     void Update()
     {
-        if (!coroutine) StartCoroutine(createBird(15));
-        checkLevel();
+        if (!_coroutine) StartCoroutine(CreateBird(15));
+        CheckLevel();
     }
 
-    IEnumerator createBird(float timeSecond) {
+    IEnumerator CreateBird(float timeSecond) {
         float counter = 0f;
-        coroutine = true;
+        _coroutine = true;
 
         while (counter < timeSecond) {
             counter += Time.deltaTime;
             yield return null;
         }
 
-        coroutine = false;
+        _coroutine = false;
         Instantiate(bird, leftLimitBird.transform.position, leftLimitBird.transform.rotation);
     } 
 
-    private void replaceLevel() {
-        level = CameraController.singleton.level;
-        leftLimitBird = GameObject.Find("leftLimit" + Convert.ToString(level + 1));
+    private void ReplaceLevel() {
+        _level = CameraController.singleton.level;
+        leftLimitBird = GameObject.Find("leftLimit" + Convert.ToString(_level + 1));
     }
 
-    private void checkLevel() {
-        if (level == CameraController.singleton.level) return;
-        replaceLevel();
+    private void CheckLevel() {
+        if (_level == CameraController.singleton.level) return;
+        ReplaceLevel();
     }
 }

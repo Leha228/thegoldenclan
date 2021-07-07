@@ -11,9 +11,10 @@ public class Rock : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other) {
         if (other.gameObject.name == "bird(Clone)") return;
         skeletonAnimation.state.SetAnimation(0, remove, false);
-        Invoke("destroy", 0.5f);
+        Invoke("Destroy", 0.5f);
     }
-    private void destroy() {
+    
+    private void Destroy() {
         Destroy(this.gameObject);
     }
 }
